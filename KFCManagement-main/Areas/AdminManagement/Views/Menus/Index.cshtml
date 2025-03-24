@@ -1,0 +1,232 @@
+﻿@model IEnumerable<KFCManagement.Models.Menu>
+
+@{
+    ViewData["Title"] = "Quản lý Menu";
+    Layout = "~/Areas/AdminManagement/Views/Shared/Admin.cshtml";
+}
+
+<style>
+    /* General Styles */
+    h1, h2 {
+        color: #e2002b; /* Red */
+        text-align: center;
+    }
+
+    /* Flexbox & Spacing */
+    .d-flex1 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .mt-2 {
+        margin-top: 1rem;
+    }
+
+    .mb-4 {
+        margin-bottom: 1.5rem;
+    }
+
+    .ml-2 {
+        margin-left: 0.5rem;
+    }
+
+    /* Buttons */
+    .btn {
+        min-width: 150px;
+        margin-top: 10px;
+        border-radius: 5px; /* Rounded corners */
+    }
+
+    .btn-primary {
+        background-color: #e2002b; /* Red */
+        border-color: #e2002b;
+        color: #ffffff;
+    }
+
+        .btn-primary:hover {
+            background-color: #c50024; /* Darker red */
+            border-color: #c50024;
+        }
+
+    .btn-info {
+        background-color: #202124; /* Dark Gray */
+        border-color: #202124;
+        color: #ffffff;
+    }
+
+        .btn-info:hover {
+            background-color: #555; /* Lighter Gray */
+            border-color: #555;
+        }
+
+    .btn-danger, .btn-secondary {
+        border-radius: 5px;
+    }
+
+    /* Table */
+    .table {
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+        background-color: #ffffff;
+    }
+
+        .table th, .table td {
+            text-align: center;
+            padding: 10px;
+            vertical-align: middle; /* Vertically center content */
+        }
+
+        .table th {
+            font-size: 16px;
+            background-color: #202124; /* Dark Gray */
+            color: #ffffff;
+        }
+
+        .table td {
+            font-size: 14px;
+        }
+
+    .table-bordered {
+        border: 1px solid #dee2e6; /* Light gray border */
+    }
+
+    /* Search & Export */
+    .form-control {
+        border-radius: 5px;
+    }
+
+    /* Status Button */
+    .btn-danger, .btn-secondary {
+        transition: all 0.3s ease; /* Smooth transition for hover effect */
+    }
+
+        .btn-danger:hover, .btn-secondary:hover {
+            transform: scale(1.05); /* Slightly scale up on hover */
+        }
+
+    /* Icons */
+    .btn i {
+        margin-right: 5px;
+    }
+
+    .table th i {
+        margin-right: 5px;
+    }
+</style>
+
+<h1 class="my-4"><i class="fas fa-utensils"></i> Quản lý gọi món</h1>
+
+<p class="text-center mb-4">
+    <a asp-action="Create" class="btn btn-primary"><i class="fas fa-plus"></i> Khách gọi món</a>
+</p>
+
+<div class="row mb-4">
+    <div class="col-md-8">
+        <form method="get" asp-controller="Menus" asp-action="Index" class="d-flex1">
+            <div class="form-group flex-grow-1 mr-2">
+                @* Make select take up available space *@
+                <select id="search" name="search" class="form-control">
+                    <option value="">-- Chọn Bàn --</option>
+                    @if (ViewBag.Tables is List<KFCManagement.Models.Table> tables)
+                    {
+                        foreach (var item in tables)
+                        {
+                            <option value="@item.TableNumber">@item.TableNumber</option>
+                        }
+                    }
+                </select>
+            </div>
+            <button type="submit" class="btn btn-primary"><i class="fas fa-search"></i> Tìm kiếm</button>
+        </form>
+    </div>
+
+    <div class="col-md-2">
+        @if (!string.IsNullOrEmpty(Context.Request.Query["search"]))
+        {
+            <a href="@Url.Action("ExportToExcel", "Menus", new { search = Context.Request.Query["search"] })" class="btn btn-info w-100"><i class="fas fa-file-excel"></i> Xuất Excel bàn @Context.Request.Query["search"]</a>
+        }
+    </div>
+    <div class="col-md-2">
+        <a href="@Url.Action("ExportToExcelAll", "Menus")" class="btn btn-info w-100"><i class="fas fa-file-excel"></i> Xuất Excel Tất cả</a>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-8">
+        <h2 class="mb-4"><i class="fas fa-list"></i> Danh sách món các bàn gọi</h2>
+        <table class="table table-bordered table-hover">
+            <thead class="thead-dark">
+                <tr>
+                    <th><i class="fas fa-table"></i> Tên Bàn</th>
+                    <th><i class="fas fa-dollar-sign"></i> Giá</th>
+                    <th><i class="fas fa-utensils"></i> Món</th>
+                    <th><i class="fas fa-cog"></i> Hành động</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr id="row-@item.MenuId">
+                        <td style="font-size:18px">@Html.DisplayFor(modelItem => item.Name)</td>
+                        <td>@Html.DisplayFor(modelItem => item.Price)</td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Description)
+                            <b id="status-@item.MenuId" style="display: none;">(Xong)</b>
+                        </td>
+                        <td>
+                            <button id="btn-@item.MenuId" class="btn btn-sm btn-danger" onclick="toggleStatus(@item.MenuId)">Xong</button>
+                            <a asp-action="Delete" asp-route-id="@item.MenuId" class="btn btn-sm btn-danger"><i class="fas fa-trash-alt"></i> Xóa</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+
+    <div class="col-md-4">
+        <h2 class="mb-4"><i class="fas fa-money-bill-wave"></i> Tổng số tiền theo bàn</h2>
+        <table class="table table-bordered table-hover">
+            <thead class="thead-dark">
+                <tr>
+                    <th><i class="fas fa-table"></i> Tên Bàn</th>
+                    <th><i class="fas fa-dollar-sign"></i> Tổng giá</th>
+                    <th><i class="fas fa-cog"></i> Hành động</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var group in ViewBag.GroupedData)
+                {
+                    <tr>
+                        <td style="font-size:18px">@group.Name</td>
+                        <td style="font-size:18px">@group.TotalPrice</td>
+                        <td>
+                            <button type="submit" class="btn btn-danger"><i class="fas fa-trash-alt"></i> Xoá</button>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+<script>
+    function toggleStatus(menuId) {
+        const statusElement = document.getElementById(`status-${menuId}`);
+        const buttonElement = document.getElementById(`btn-${menuId}`);
+
+        // Kiểm tra trạng thái hiển thị của thẻ <b>
+        if (statusElement.style.display === "none") {
+            // Hiển thị thẻ <b> và đổi nút thành "Chưa xong"
+            statusElement.style.display = "inline";
+            buttonElement.innerText = "Chưa xong";
+            buttonElement.classList.remove("btn-danger");
+            buttonElement.classList.add("btn-secondary");
+        } else {
+            // Ẩn thẻ <b> và đổi nút thành "Xong"
+            statusElement.style.display = "none";
+            buttonElement.innerText = "Xong";
+            buttonElement.classList.remove("btn-secondary");
+            buttonElement.classList.add("btn-danger");
+        }
+    }
+</script>

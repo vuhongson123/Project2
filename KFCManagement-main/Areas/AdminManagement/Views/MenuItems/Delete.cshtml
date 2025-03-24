@@ -1,0 +1,148 @@
+﻿@model KFCManagement.Models.MenuItem
+
+@{
+    ViewData["Title"] = "Xóa Món";
+    Layout = "~/Areas/AdminManagement/Views/Shared/Admin.cshtml";
+}
+
+<style>
+    /* General Styles */
+    body {
+        font-family: 'Arial', sans-serif;
+        color: #202124;
+        background-color: #f4f4f4;
+    }
+
+    h1 {
+        color: #e2002b;
+        font-size: 2rem;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    h3 {
+        color: #202124;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+
+    h4 {
+        color: #202124;
+        margin-bottom: 15px;
+    }
+
+    .dl-horizontal {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        gap: 10px;
+    }
+
+        .dl-horizontal dt {
+            font-weight: 600;
+            color: #555;
+            padding: 10px;
+            text-align: left;
+        }
+
+        .dl-horizontal dd {
+            padding: 10px;
+            background-color: #ffffff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+    .btn-danger {
+        background-color: #e2002b;
+        border-color: #e2002b;
+        color: #ffffff;
+        margin-right: 10px;
+        padding: 10px 20px;
+        border-radius: 5px;
+    }
+
+        .btn-danger:hover {
+            background-color: #c50024;
+            border-color: #c50024;
+        }
+
+    .btn-secondary {
+        background-color: #202124;
+        border-color: #202124;
+        color: #ffffff;
+        padding: 10px 20px;
+        border-radius: 5px;
+    }
+
+        .btn-secondary:hover {
+            background-color: #555;
+            border-color: #555;
+        }
+
+    /* Icons */
+    .dl-horizontal dt i {
+        margin-right: 5px;
+    }
+
+    .btn i {
+        margin-right: 5px;
+    }
+</style>
+
+<h1>Xóa Món</h1>
+
+<h3>Bạn có chắc chắn muốn xóa món này không?</h3>
+
+<div>
+    <h4>Thông Tin Món</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            <i class="fas fa-hamburger"></i> Tên Món
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+        <dt>
+            <i class="fas fa-image"></i> Mô Tả
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Description)
+        </dd>
+        <dt>
+            <i class="fas fa-money-bill-alt"></i> Giá
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Price)
+        </dd>
+        <dt>
+            <i class="fas fa-check-circle"></i> Trạng Thái
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.IsAvailable)
+        </dd>
+        <dt>
+            <i class="fas fa-calendar-alt"></i> Ngày Tạo
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.CreatedAt)
+        </dd>
+        <dt>
+            <i class="fas fa-calendar-alt"></i> Ngày Cập Nhật
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.UpdatedAt)
+        </dd>
+        <dt>
+            <i class="fas fa-folder"></i> Danh Mục
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Category.Name)
+        </dd>
+    </dl>
+
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="ItemId" />
+        <button type="submit" class="btn btn-danger"><i class="fas fa-trash-alt"></i> Xóa</button>
+        <a asp-action="Index" class="btn btn-secondary"><i class="fas fa-arrow-left"></i> Quay lại danh sách</a>
+    </form>
+</div>

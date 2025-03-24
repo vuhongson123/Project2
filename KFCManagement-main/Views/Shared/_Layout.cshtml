@@ -1,0 +1,249 @@
+﻿@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success">
+        @TempData["SuccessMessage"]
+    </div>
+}
+@if (TempData["ErrorMessage"] != null)
+{
+    <div class="alert alert-danger">
+        @TempData["ErrorMessage"]
+    </div>
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - KFCManagement</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/KFCManagement.styles.css" asp-append-version="true" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <style>
+        /* Màu sắc KFC */
+        :root {
+            --kfc-red: #E4002B;
+            --kfc-white: #FFFFFF;
+            --kfc-black: #000000;
+        }
+
+        body {
+            font-family: Arial, sans-serif; /* Chọn font chữ phù hợp */
+            background-color: var(--kfc-white);
+            color: var(--kfc-black);
+        }
+
+        .header {
+            background-color: var(--kfc-white);
+            border-bottom: 1px solid #ddd;
+        }
+
+        .navbar-brand img {
+            height: 80px;
+        }
+
+        .navbar {
+            padding: 1rem 1.5rem; /* Tăng padding để menu rộng rãi hơn */
+            background-color: var(--kfc-white); /* Hoặc màu nền bạn muốn */
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Thêm đổ bóng để nổi bật */
+        }
+
+        .navbar-brand img {
+            height: 90px; /* Tăng kích thước logo */
+            margin-right: 15px;
+        }
+
+        .navbar-nav .nav-link {
+            font-size: 1.2rem; /* Tăng kích thước font chữ */
+            font-weight: 600; /* Làm chữ đậm hơn */
+            padding: 0.7rem 1.2rem; /* Tăng padding cho mỗi mục menu */
+            color: var(--kfc-black); /* Màu chữ */
+            text-transform: uppercase; /* Chữ in hoa */
+            transition: color 0.3s ease; /* Hiệu ứng chuyển màu khi hover */
+        }
+
+            .navbar-nav .nav-link:hover,
+            .navbar-nav .nav-link.active {
+                color: var(--kfc-red); /* Màu chữ khi hover hoặc active */
+            }
+
+        /* Dropdown */
+        .dropdown-menu {
+            border: none;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+            padding: 0.8rem 0;
+            font-size: 1.1rem;
+        }
+
+        .dropdown-item {
+            padding: 0.7rem 1.5rem;
+            transition: background-color 0.3s ease;
+        }
+
+            .dropdown-item:hover {
+                background-color: #f8f9fa; /* Màu nền khi hover */
+                color: var(--kfc-red);
+            }
+
+        /* Nút Toggle (cho responsive) */
+        .navbar-toggler {
+            border: none;
+        }
+
+        .navbar-toggler-icon {
+            background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(0, 0, 0, 0.5)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+        }
+        .nav-link {
+            color: white !important;
+        }
+
+            .nav-link:hover {
+                color: black !important;
+            }
+
+        .btn-primary {
+            background-color: var(--kfc-red);
+            border-color: var(--kfc-red);
+        }
+
+            .btn-primary:hover {
+                background-color: #C20023;
+                border-color: #C20023;
+            }
+
+        .alert-success {
+            background-color: #d4edda;
+            border-color: #c3e6cb;
+            color: #155724;
+        }
+
+        .alert-danger {
+            background-color: #f8d7da;
+            border-color: #f5c6cb;
+            color: #721c24;
+        }
+
+        .dropdown-menu {
+            border-radius: 5px;
+        }
+
+        .dropdown-item:hover {
+            background-color: #f0f0f0;
+        }
+
+        .nav-item {
+            display: flex;
+            justify-content: center; /* Căn giữa theo chiều ngang */
+            align-items: center; /* Căn giữa theo chiều dọc */
+            height: 100%; /* Đảm bảo chiều cao đủ lớn để căn giữa */
+        }
+
+            /* Tăng kích thước của biểu tượng */
+            .nav-item i {
+                font-size: 30px; /* Bạn có thể thay đổi giá trị này tùy ý */
+                color:white;
+            }
+        /* Kiểu dáng cho liên kết Đăng xuất */
+        .logout-link {
+            text-decoration: none; /* Loại bỏ gạch dưới */
+            color: #ffffff; /* Màu chữ trắng */
+            padding: 10px 20px; /* Padding cho nút */
+            border-radius: 5px; /* Bo góc cho nút */
+            font-size: 16px; /* Kích thước chữ */
+            font-weight: bold; /* Đậm chữ */
+            display: inline-block; /* Hiển thị liên kết dưới dạng block */
+            transition: background-color 0.3s, transform 0.2s; /* Hiệu ứng chuyển động */
+        }
+
+            /* Hiệu ứng khi hover */
+            .logout-link:hover {
+                background-color: #d32f2f; /* Màu nền khi hover (tối hơn) */
+                transform: scale(1.05); /* Phóng to nút một chút */
+            }
+
+            /* Hiệu ứng khi nút đang được nhấn (active) */
+            .logout-link:active {
+                background-color: #c62828; /* Màu nền khi nhấn */
+                transform: scale(0.98); /* Thu nhỏ nút khi nhấn */
+            }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-body-tertiary border-bottom box-shadow mb-3" style="position: fixed;z-index:1000;width:1550px;top:0;background-color:#e4002b;color:white">
+            <div class="container-fluid">
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">
+                    <img src="~/images/logo.png" alt="KFC Logo" style="height: 80px; margin-right: 10px;">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="color:white" >
+                        <li class="nav-item">
+                            <a class="nav-link" asp-controller="Home" asp-action="Index">Trang chủ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-controller="Home" asp-action="Menu">Thực đơn</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-controller="Home" asp-action="Service">Dịch vụ tiệc</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-controller="Home" asp-action="Restaurant">Hệ thống nhà hàng</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-controller="Tables" asp-action="Index">Đặt bàn</a>
+                        </li>
+                        
+                    </ul>
+                    <ul class="navbar-nav  mb-2 mb-lg-0" style="margin-right:50px">
+                        @if (Context.Session.GetString("CustomerLogin") != null)
+                        {
+                            <li class="nav-item" style="margin-right:20px;margin-top:10px">
+                                <a asp-controller="OrderDetails" asp-action="Index"><i class="fas fa-cart-shopping"></i></a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Tài khoản
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" asp-area="" asp-controller="Tables" asp-action="Mytables" asp-route-customerId="@Context.Session.GetInt32("CustomerId")">Bàn đặt của tôi</a></li>
+                                    <li><a class="dropdown-item" asp-controller="Customers" asp-action="Details" asp-route-customerId="@Context.Session.GetInt32("CustomerId")">Thông tin cá nhân</a></li>
+                                    <li class="nav-item">
+                                        <a class="logout-link" href="@Url.Action("Logout", "LoginC")">Đăng xuất</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        }
+                        else
+                        {
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Tài khoản
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" asp-controller="LoginC" asp-action="Index">Đăng nhập</a></li>
+                                    <li><a class="dropdown-item" asp-area="" asp-controller="Customers" asp-action="Create">Đăng ký</a></li>
+                                </ul>
+                            </li>
+                        }
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container" style="margin-top:150px">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

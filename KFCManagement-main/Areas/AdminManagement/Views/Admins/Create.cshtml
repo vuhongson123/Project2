@@ -1,0 +1,131 @@
+﻿@model KFCManagement.Models.Admin
+
+@{
+    ViewData["Title"] = "Tạo Mới Quản Trị Viên";
+    Layout = "~/Areas/AdminManagement/Views/Shared/Admin.cshtml";
+}
+
+<style>
+    /* General Styles */
+
+
+    h1 {
+        color: #e2002b;
+        font-size: 2rem;
+        margin-bottom: 20px;
+        text-align: center; /* Center the title */
+    }
+
+    h4 {
+        color: #202124;
+        margin-bottom: 15px;
+    }
+
+    .row {
+        justify-content: center; /* Center the form */
+    }
+
+    .col-md-4 {
+        background-color: #ffffff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    }
+
+    .form-group {
+        margin-bottom: 15px;
+    }
+
+    .control-label {
+        font-weight: 600;
+        color: #555; /* Slightly lighter gray for labels */
+    }
+
+    .form-control {
+        border-radius: 5px;
+        border: 1px solid #ddd;
+        padding: 10px;
+    }
+
+        .form-control:focus {
+            border-color: #e2002b; /* Red border on focus */
+            outline: none;
+            box-shadow: 0 0 5px rgba(226, 0, 43, 0.2); /* Red glow on focus */
+        }
+
+    .text-danger {
+        color: #e2002b; /* Red validation messages */
+        font-size: 0.9rem;
+    }
+
+    .btn-primary {
+        background-color: #e2002b;
+        border-color: #e2002b;
+        color: #ffffff;
+        padding: 10px 20px;
+        border-radius: 5px;
+    }
+
+        .btn-primary:hover {
+            background-color: #c50024;
+            border-color: #c50024;
+        }
+
+    a {
+        color: #007bff; /* Blue link color */
+    }
+
+        a:hover {
+            color: #0056b3; /* Darker blue on hover */
+        }
+
+    /* Icons */
+    .form-group i {
+        margin-right: 5px;
+    }
+</style>
+
+<h1>Tạo Mới Quản Trị Viên</h1>
+
+<h4>Thông Tin Quản Trị Viên</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Name" class="control-label"><i class="fas fa-user"></i> Tên Quản Trị Viên</label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Email" class="control-label"><i class="fas fa-envelope"></i> Email</label>
+                <input asp-for="Email" class="form-control" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Password" class="control-label"><i class="fas fa-key"></i> Mật Khẩu</label>
+                <input asp-for="Password" class="form-control" />
+                <span asp-validation-for="Password" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Phone" class="control-label"><i class="fas fa-phone"></i> Số Điện Thoại</label>
+                <input asp-for="Phone" class="form-control" />
+                <span asp-validation-for="Phone" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <button type="submit" class="btn btn-primary"><i class="fas fa-plus"></i> Tạo Mới</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index"><i class="fas fa-arrow-left"></i> Quay lại danh sách</a>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

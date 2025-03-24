@@ -1,0 +1,143 @@
+﻿@model IEnumerable<KFCManagement.Models.Table>
+
+@{
+    ViewData["Title"] = "Danh Sách Bàn";
+    Layout = "~/Areas/AdminManagement/Views/Shared/Admin.cshtml";
+}
+
+<style>
+ 
+
+    h1 {
+        color: #e2002b;
+        font-size: 2rem;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .btn-primary {
+        background-color: #e2002b; /* Red */
+        border-color: #e2002b;
+        color: #ffffff;
+        margin-right: 10px; /* Space between buttons */
+        margin-bottom: 20px;
+    }
+
+        .btn-primary:hover {
+            background-color: #c50024; /* Darker red */
+            border-color: #c50024;
+        }
+
+    /* Table Styles */
+    .table {
+        width: 100%;
+        border-collapse: collapse;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        background-color: #ffffff;
+    }
+
+        .table th, .table td {
+            padding: 12px 15px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+            vertical-align: middle; /* Align content vertically in cells */
+        }
+
+        .table th {
+            background-color: #f8f9fa;
+            color: #202124;
+            font-weight: 600;
+        }
+
+        .table tr:hover {
+            background-color: #f5f5f5;
+        }
+
+    /* Action Buttons */
+    .btn-warning, .btn-info, .btn-danger {
+        margin: 0 5px;
+        padding: 8px 15px;
+        font-size: 0.9rem;
+    }
+
+    .btn-warning {
+        background-color: #ffc107; /* Yellow */
+        border-color: #ffc107;
+        color: #202124;
+    }
+
+    .btn-info {
+        background-color: #17a2b8; /* Blue */
+        border-color: #17a2b8;
+        color: #ffffff;
+    }
+
+    .btn-danger {
+        background-color: #dc3545; /* Red */
+        border-color: #dc3545;
+        color: #ffffff;
+    }
+
+    /* Icons */
+    .table i {
+        margin-right: 5px;
+    }
+
+    .btn i {
+        margin-right: 5px;
+    }
+
+    /* IsAvailable Display */
+    .available {
+        color: #28a745; /* Green */
+    }
+
+    .unavailable {
+        color: #dc3545; /* Red */
+    }
+</style>
+
+<h1>Danh Sách Bàn</h1>
+<p>
+    <a asp-action="UpdateAll" class="btn btn-primary"><i class="fas fa-sync"></i> Cập nhật</a>
+    <a asp-action="Create" class="btn btn-primary"><i class="fas fa-plus"></i> Tạo Mới Bàn</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th><i class="fas fa-table"></i> @Html.DisplayNameFor(model => model.TableNumber)</th>
+            <th><i class="fas fa-chair"></i> @Html.DisplayNameFor(model => model.SeatingCapacity)</th>
+            <th><i class="fas fa-check-circle"></i> @Html.DisplayNameFor(model => model.IsAvailable)</th>
+            <th><i class="fas fa-calendar-alt"></i> @Html.DisplayNameFor(model => model.CreatedAt)</th>
+            <th><i class="fas fa-calendar-alt"></i> @Html.DisplayNameFor(model => model.UpdatedAt)</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@Html.DisplayFor(modelItem => item.TableNumber)</td>
+                <td>@Html.DisplayFor(modelItem => item.SeatingCapacity)</td>
+                <td>
+                    @if (item.IsAvailable.HasValue && item.IsAvailable.Value)
+                    {
+                        <span class="available">Còn</span>
+                    }
+                    else
+                    {
+                        <span class="unavailable">Trống</span>
+                    }
+                </td>
+                <td>@Html.DisplayFor(modelItem => item.CreatedAt)</td>
+                <td>@Html.DisplayFor(modelItem => item.UpdatedAt)</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.TableId" class="btn btn-warning btn-sm"><i class="fas fa-edit"></i> Sửa</a>
+                    <a asp-action="Details" asp-route-id="@item.TableId" class="btn btn-info btn-sm"><i class="fas fa-info-circle"></i> Chi Tiết</a>
+                    <a asp-action="Delete" asp-route-id="@item.TableId" class="btn btn-danger btn-sm"><i class="fas fa-trash-alt"></i> Xóa</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

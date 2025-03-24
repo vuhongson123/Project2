@@ -1,0 +1,134 @@
+﻿@model KFCManagement.Models.Customer
+
+@{
+    ViewData["Title"] = "Chi Tiết";
+    Layout = "~/Areas/AdminManagement/Views/Shared/Admin.cshtml";
+}
+
+<style>
+ 
+
+    h1 {
+        color: #e2002b;
+        font-size: 2rem;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    h4 {
+        color: #202124;
+        margin-bottom: 15px;
+    }
+
+    .dl-horizontal {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        gap: 10px;
+    }
+
+        .dl-horizontal dt {
+            font-weight: 600;
+            color: #555;
+            padding: 10px;
+            text-align: left;
+        }
+
+        .dl-horizontal dd {
+            padding: 10px;
+            background-color: #ffffff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+    .btn-warning {
+        background-color: #ffc107; /* Yellow */
+        border-color: #ffc107;
+        color: #202124;
+        margin-right: 10px;
+        padding: 10px 20px;
+        border-radius: 5px;
+    }
+
+        .btn-warning:hover {
+            background-color: #e0a800; /* Darker yellow */
+            border-color: #e0a800;
+        }
+
+    .btn-info {
+        background-color: #17a2b8; /* Blue */
+        border-color: #17a2b8;
+        color: #ffffff;
+        padding: 10px 20px;
+        border-radius: 5px;
+    }
+
+        .btn-info:hover {
+            background-color: #138496; /* Darker blue */
+            border-color: #138496;
+        }
+
+    /* Icons */
+    .dl-horizontal dt i {
+        margin-right: 5px;
+    }
+
+    .btn i {
+        margin-right: 5px;
+    }
+</style>
+
+<h1>Chi Tiết Khách Hàng</h1>
+
+<div>
+    <h4>Thông Tin Khách Hàng</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            <i class="fas fa-user"></i> @Html.DisplayNameFor(model => model.Name)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+        <dt>
+            <i class="fas fa-envelope"></i> @Html.DisplayNameFor(model => model.Email)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Email)
+        </dd>
+        <dt>
+            <i class="fas fa-key"></i> @Html.DisplayNameFor(model => model.Password)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Password)
+        </dd>
+        <dt>
+            <i class="fas fa-phone"></i> @Html.DisplayNameFor(model => model.Phone)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Phone)
+        </dd>
+        <dt>
+            <i class="fas fa-map-marker-alt"></i> @Html.DisplayNameFor(model => model.Address)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Address)
+        </dd>
+        <dt>
+            <i class="fas fa-calendar-alt"></i> @Html.DisplayNameFor(model => model.CreatedAt)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.CreatedAt)
+        </dd>
+        <dt>
+            <i class="fas fa-calendar-alt"></i> @Html.DisplayNameFor(model => model.UpdatedAt)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.UpdatedAt)
+        </dd>
+    </dl>
+</div>
+
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.CustomerId" class="btn btn-warning"><i class="fas fa-edit"></i> Chỉnh Sửa</a>
+    <a asp-action="Index" class="btn btn-info"><i class="fas fa-arrow-left"></i> Quay Lại Danh Sách</a>
+</div>

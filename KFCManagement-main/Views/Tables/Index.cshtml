@@ -1,0 +1,150 @@
+﻿@model IEnumerable<KFCManagement.Models.Table>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<style>
+    .table-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 70px;
+        justify-content: center;
+        padding: 20px;
+        position: relative;
+        background-color: #ffffff; /* White background for the container */
+    }
+
+    .table {
+        top: 1rem;
+        width: 300px;
+        height: 300px;
+        background-color: #ffffff; /* White table background */
+        border: 4px solid #e2002b; /* Thick red border */
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+        position: relative;
+    }
+
+    .table-content {
+        margin-top: 1rem;
+        text-align: center;
+        font-size: 16px; /* Increased font size */
+        line-height: 1.6; /* Increased line height */
+        z-index: 2;
+        color: #333333; /* Darker gray text color */
+    }
+
+    .reserve-button {
+        display: inline-block;
+        margin-top: 15px; /* Increased margin */
+        padding: 8px 15px; /* Increased padding */
+        background-color: #e2002b; /* Red button */
+        color: #ffffff; /* White text on button */
+        text-decoration: none;
+        border-radius: 6px; /* Slightly rounded corners */
+        font-size: 14px; /* Increased font size */
+        border: none;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        font-weight: bold; /* Bold button text */
+    }
+
+        .reserve-button:hover {
+            background-color: #c50024;
+        }
+
+    .table-content p {
+        margin: 8px 0; /* Increased margin */
+        font-weight: 500; /* Slightly bolder text */
+    }
+
+    .table-available {
+        background-color: #f0f8ff; /* Light blue background for available tables */
+    }
+
+    .table-occupied {
+        background-color: #ffe6e6; /* Light red background for occupied tables */
+    }
+
+    /* Chairs */
+    .table .chair {
+        content: "";
+        position: absolute;
+        background-color: #333333; /* Darker gray chairs */
+        border-radius: 50%;
+        z-index: 1;
+    }
+
+        .table .chair.top,
+        .table .chair.bottom,
+        .table .chair.left,
+        .table .chair.right {
+            width: 70px; /* Increased chair size */
+            height: 70px; /* Increased chair size */
+        }
+
+        /* Chair positions */
+        .table .chair.top {
+            top: -40px; /* Adjusted position */
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        .table .chair.left {
+            top: 50%;
+            left: -40px; /* Adjusted position */
+            transform: translateY(-50%);
+        }
+
+        .table .chair.right {
+            top: 50%;
+            right: -40px; /* Adjusted position */
+            transform: translateY(-50%);
+        }
+
+        .table .chair.bottom {
+            bottom: -40px; /* Adjusted position */
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+    h1 {
+        color: #e2002b; /* Red heading */
+        text-align: center;
+        margin-bottom: 30px; /* Increased margin */
+        font-size: 2.5rem; /* Increased heading size */
+        font-weight: bold; /* Bold heading */
+    }
+</style>
+<h1>Danh sách bàn của quán ăn</h1>
+<div class="table-container">
+    @foreach (var item in Model)
+    {
+        var rowClass = item.IsAvailable == true ? "table-available" : "table-occupied";
+        <div class="table @rowClass">
+            <!-- Ghế xung quanh bàn -->
+            <div class="chair top"></div>
+            <div class="chair left"></div>
+            <div class="chair right"></div>
+            <div class="chair bottom"></div>
+
+            <div class="table-content">
+                <p><strong>Số bàn:</strong> @Html.DisplayFor(modelItem => item.TableNumber)</p>
+                <p><strong>Sức chứa:</strong> @Html.DisplayFor(modelItem => item.SeatingCapacity)</p>
+                <p>
+                    <strong>Trạng thái:</strong>
+                    @(item.IsAvailable ?? false ? "Trống" : "Đã có người đặt")
+                </p>
+                <p><strong>Ngày cập nhật:</strong></p>
+                <p>
+                    @DateTime.Now.ToString("dd/MM/yyyy hh:mm")
+                </p>
+                <a class="reserve-button" asp-controller="Reservations" asp-action="Add" asp-route-id="@item.TableId" asp-route-customerId="@Context.Session.GetInt32("CustomerId")">Đặt bàn</a>
+            </div>
+        </div>
+    }
+</div>

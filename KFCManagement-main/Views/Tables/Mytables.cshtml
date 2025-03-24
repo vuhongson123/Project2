@@ -1,0 +1,93 @@
+﻿@model List<KFCManagement.Models.Table>
+
+<h2 class="text-center my-4">Danh sách bàn đã đặt</h2>
+
+@if (Model != null && Model.Any())
+{
+    <table class="table table-striped table-bordered table-hover">
+        <thead class="thead-dark">
+            <tr>
+                <th>Mã bàn</th>
+                <th>Tên số</th>
+                <th>Thời gian đặt</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var table in Model)
+            {
+                <tr>
+                    <td>@table.TableId</td>
+                    <td>@table.TableNumber</td>
+                    <td>@table.UpdatedAt</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p class="text-center">Hiện tại bạn chưa đặt bàn nào.</p>
+}
+
+<style>
+    h2 {
+        color: #e2002b; /* Red heading */
+        text-align: center;
+        margin-bottom: 20px;
+        font-size: 2rem; /* Larger heading size */
+        font-weight: bold; /* Make the heading bold */
+    }
+
+    /* Table Styles */
+    .table {
+        width: 100%;
+        margin-top: 20px;
+        border-collapse: collapse; /* Collapse borders for a cleaner look */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    }
+
+        .table th,
+        .table td {
+            padding: 15px; /* Increased padding for better readability */
+            text-align: center;
+            border: 1px solid #dee2e6; /* Light gray border */
+            font-size: 1.1rem; /* Slightly larger font size for table content */
+        }
+
+        .table thead {
+            background-color: #e2002b; /* Red header background */
+            color: #ffffff; /* White header text */
+        }
+
+        .table th {
+            font-weight: bold; /* Bold header text */
+        }
+
+        .table tbody tr:hover {
+            background-color: #f8f9fa; /* Light gray background on hover */
+        }
+
+    /* Empty Table Message */
+    .text-center {
+        font-size: 1.2rem;
+        font-weight: 600;
+        color: #ffffff;
+        margin-top: 20px; /* Space above the message */
+    }
+
+    /* Responsive Table (Optional - if needed) */
+    .table-responsive {
+        overflow-x: auto; /* Enable horizontal scrolling if the table is too wide */
+    }
+
+    /* Bootstrap overrides (if needed) */
+    .btn-primary {
+        background-color: #e2002b !important; /* Red primary button */
+        border-color: #e2002b !important;
+    }
+
+        .btn-primary:hover {
+            background-color: #c50024 !important; /* Darker red on hover */
+            border-color: #c50024 !important;
+        }
+</style>

@@ -1,0 +1,79 @@
+﻿@model IEnumerable<KFCManagement.Models.MenuItem>;
+
+<style>
+    /* Màu sắc KFC */
+    :root {
+        --kfc-red: #E4002B;
+        --kfc-white: #FFFFFF;
+        --kfc-black: #000000;
+    }
+
+    .menu-page {
+        font-family: Arial, sans-serif;
+        background-color: var(--kfc-white);
+        color: var(--kfc-black);
+    }
+
+    .section-title {
+        color: var(--kfc-red);
+        font-weight: bold;
+        text-transform: uppercase;
+        margin-bottom: 30px;
+    }
+
+    .card {
+        border: none;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease;
+        margin-bottom: 30px;
+    }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+    .card-img-top {
+        height: 250px;
+        object-fit: cover;
+    }
+
+    .card-title {
+        color: var(--kfc-red);
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+
+    .btn-primary {
+        background-color: var(--kfc-red);
+        border-color: var(--kfc-red);
+        border-radius: 25px;
+        padding: 10px 20px;
+    }
+
+        .btn-primary:hover {
+            background-color: #C20023;
+            border-color: #C20023;
+        }
+</style>
+
+<div class="container mt-5 menu-page">
+    <h2 class="section-title text-center">Thực Đơn Của KFC</h2>
+    <div class="row">
+        @foreach (var item in ViewBag.MenuItems)
+        {
+            <div class="col-md-4 menu-item">
+                <div class="card">
+                    <img src="@item.Description" alt="@item.Name" class="card-img-top">
+                    <div class="card-body" style="background-color:#ffffcc">
+                        <h5 class="card-title">@item.Name</h5>
+                        <p class="card-text">
+                            <strong>Giá: @item.Price.ToString("N0") VND</strong>
+                        </p>
+                        <a href="@Url.Action("AddToCart", "OrderDetails", new { itemId = item.ItemId, quantity = 1 })" class="btn btn-primary">Thêm vào giỏ hàng</a>
+
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>

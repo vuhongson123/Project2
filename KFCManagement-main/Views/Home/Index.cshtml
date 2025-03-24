@@ -1,0 +1,235 @@
+﻿@model IEnumerable<KFCManagement.Models.MenuItem>;
+
+
+@{
+    ViewData["Title"] = "Trang chủ";
+}
+<style>
+    /* Màu sắc KFC */
+    :root {
+        --kfc-red: #E4002B;
+        --kfc-white: #FFFFFF;
+        --kfc-black: #000000;
+    }
+
+    body {
+        font-family: 'Roboto', sans-serif; /* Sử dụng Google Fonts */
+        background-color: var(--kfc-white);
+        color: var(--kfc-black);
+        font-size: 16px; /* Kích thước font chữ cơ bản */
+        line-height: 1.6;
+    }
+
+    .section-title {
+        color: var(--kfc-red);
+        font-weight: 700; /* Làm đậm tiêu đề */
+        text-transform: uppercase;
+        letter-spacing: 1px; /* Khoảng cách chữ */
+        font-size: 2.5rem; /* Kích thước tiêu đề */
+        margin-bottom: 30px; /* Khoảng cách dưới tiêu đề */
+    }
+
+    .btn-primary {
+        background-color: var(--kfc-red);
+        border-color: var(--kfc-red);
+        border-radius: 25px;
+        padding: 10px 20px;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+        font-weight: 600;
+        margin-bottom: 15px;
+    }
+
+    p {
+        margin-bottom: 20px;
+        font-size:18px;
+    }
+
+    .btn-primary {
+        background-color: var(--kfc-red);
+        border-color: var(--kfc-red);
+        border-radius: 25px;
+        padding: 12px 25px;
+        font-size: 1.1rem;
+        font-weight: 600;
+    }
+        .btn-primary:hover {
+            background-color: #C20023;
+            border-color: #C20023;
+        }
+
+    .card {
+        border: none;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease;
+    }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+    .carousel-item img {
+        height: 500px; /* Tùy chỉnh chiều cao */
+        object-fit: cover;
+    }
+
+    footer {
+        background-color: var(--kfc-red);
+        color: var(--kfc-white);
+        padding: 30px 0;
+    }
+
+    .hero-section {
+        background-size: cover;
+        background-position: center;
+        padding: 100px 0;
+        text-align: center;
+        color: white;
+        position: relative;
+    }
+
+        .hero-section::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #E4002B; /* Overlay */
+        }
+
+        .hero-section h1, .hero-section p {
+            position: relative;
+            z-index: 1;
+        }
+</style>
+<div class="container mt-2">
+    <!-- Banner Carousel -->
+    <div id="featuredCakesCarousel" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="~/images/banner.jpg" alt="Featured Cake 1" width="100%" style="height:400px">
+            </div>
+            <div class="carousel-item">
+                <img src="~/images/banner2.jpg" alt="Featured Cake 2" width="100%" style="height:400px">
+            </div>
+            <div class="carousel-item">
+                <img src="~/images/banner3.jpg" alt="Featured Cake 3" width="100%" style="height:400px">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#featuredCakesCarousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        </a>
+        <a class="carousel-control-next" href="#featuredCakesCarousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        </a>
+    </div>
+    <!-- Giới thiệu về quán -->
+    <section class="hero-section" style="background-image:url(~/wwwroot/images/kfc-banner.jpg);">
+        <h1>Chào Mừng Đến Với KFC</h1>
+        <p>Hương vị gà rán trứ danh, không gian hiện đại, phục vụ tận tình</p>
+    </section>
+
+    <!-- Giới thiệu về KFC -->
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-6">
+                <h2 class="section-title">Về KFC</h2>
+                <p>KFC (Kentucky Fried Chicken) là thương hiệu gà rán nổi tiếng thế giới với hương vị đặc trưng và công thức bí mật từ 11 loại gia vị.</p>
+                <p>Chúng tôi cam kết mang đến cho bạn những miếng gà rán giòn tan, đậm đà hương vị cùng nhiều món ăn kèm hấp dẫn. Hãy đến và thưởng thức ngay hôm nay!</p>
+                <p>Không chỉ nổi tiếng với gà rán, KFC còn mang đến thực đơn phong phú với burger, khoai tây chiên và nhiều món ngon khác.</p>
+                <p>Với không gian thoải mái và dịch vụ tận tình, KFC là điểm đến lý tưởng cho những bữa ăn ngon bên gia đình và bạn bè.</p>
+            </div>
+            <div class="col-md-6">
+                <img src="~/images/kfc-store_1.jpg" alt="KFC Restaurant" class="img-fluid" width="100%">
+            </div>
+        </div>
+    </div>
+
+    <!-- Thực đơn KFC -->
+    <div class="container mt-5">
+        <h2 class="section-title text-center">Thực Đơn Của KFC</h2>
+        <div class="row">
+            @foreach (var item in ViewBag.MenuItems)
+            {
+                <div class="col-md-3 menu-item">
+                    <img src="@item.Description" alt="@item.Name" class="" width="100%" height="300px">
+                    <h3>@item.Name</h3>
+                    <p><strong>Giá: @string.Format("{0:N0}", item.Price) VND</strong></p>
+                </div>
+            }
+        </div>
+    </div>
+
+    <!-- Dịch vụ của KFC -->
+    <div class="container mt-5">
+        <h2 class="section-title text-center">Dịch Vụ Của KFC</h2>
+        <div class="row">
+            <div class="col-md-4 service-item">
+                <img src="~/images/kfc-delivery.jpg" alt="Giao hàng KFC" class="" width="100%" height="300px">
+                <h3>Giao Hàng Tận Nơi</h3>
+                <p>Thưởng thức gà rán KFC nóng giòn ngay tại nhà với dịch vụ giao hàng nhanh chóng.</p>
+            </div>
+            <div class="col-md-4 service-item">
+                <img src="~/images/kfc-party.jpg" alt="Tiệc KFC" class="" width="100%" height="300px">
+                <h3>Đặt Tiệc</h3>
+                <p>Hãy để KFC mang đến những bữa tiệc vui vẻ với thực đơn hấp dẫn và không gian ấm cúng.</p>
+            </div>
+            <div class="col-md-4 service-item">
+                <img src="~/images/kfc-store.jpg" alt="Cửa hàng KFC" class="" width="100%" height="300px">
+                <h3>Ăn Tại Chỗ</h3>
+                <p>Thưởng thức gà rán nóng hổi tại hệ thống nhà hàng KFC hiện đại, tiện nghi.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Khách hàng nói gì -->
+    <div class="container mt-5">
+        <h2 class="section-title text-center">Khách Hàng Nói Gì</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="testimonial">
+                    <h5>Nguyễn Văn A</h5>
+                    <p style="color:red;">"Gà rán KFC thực sự ngon! Vỏ giòn, thịt mềm, ăn một lần là nhớ mãi!"</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="testimonial">
+                    <h5>Trần Thị B</h5>
+                    <p style="color:red;">"Dịch vụ giao hàng rất nhanh, món ăn đến tay vẫn nóng hổi và thơm ngon."</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Liên Hệ -->
+    <div class="container mt-5">
+        <h2 class="section-title text-center">Liên Hệ Với KFC</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <h4>Địa Chỉ</h4>
+                <p>456 Đường ABC, Quận XYZ, TP. Hồ Chí Minh</p>
+                <h4>Số Điện Thoại</h4>
+                <p>1900 6886</p>
+                <h4>Email</h4>
+                <p>support@kfcvietnam.com</p>
+            </div>
+            <div class="col-md-6">
+                <h4>Gửi Thông Điệp</h4>
+                <form>
+                    <input type="text" class="form-control" placeholder="Tên của bạn" required><br>
+                    <input type="email" class="form-control" placeholder="Email của bạn" required><br>
+                    <textarea class="form-control" placeholder="Tin nhắn của bạn" rows="4" required></textarea><br>
+                    <button type="submit" class="btn btn-primary">Gửi</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">

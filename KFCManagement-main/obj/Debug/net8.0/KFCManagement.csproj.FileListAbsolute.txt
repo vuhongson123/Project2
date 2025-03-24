@@ -1,0 +1,1009 @@
+E:\DATN\KFCManagement\bin\Debug\net8.0\appsettings.Development.json
+E:\DATN\KFCManagement\bin\Debug\net8.0\appsettings.json
+E:\DATN\KFCManagement\bin\Debug\net8.0\KFCManagement.staticwebassets.runtime.json
+E:\DATN\KFCManagement\bin\Debug\net8.0\KFCManagement.staticwebassets.endpoints.json
+E:\DATN\KFCManagement\bin\Debug\net8.0\KFCManagement.exe
+E:\DATN\KFCManagement\bin\Debug\net8.0\KFCManagement.deps.json
+E:\DATN\KFCManagement\bin\Debug\net8.0\KFCManagement.runtimeconfig.json
+E:\DATN\KFCManagement\bin\Debug\net8.0\KFCManagement.dll
+E:\DATN\KFCManagement\bin\Debug\net8.0\KFCManagement.pdb
+E:\DATN\KFCManagement\bin\Debug\net8.0\Azure.Core.dll
+E:\DATN\KFCManagement\bin\Debug\net8.0\Azure.Identity.dll
+E:\DATN\KFCManagement\bin\Debug\net8.0\Humanizer.dll
+E:\DATN\KFCManagement\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+E:\DATN\KFCManagement\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+E:\DATN\KFCManagement\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+E:\DATN\KFCManagement\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+E:\DATN\KFCManagement\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+E:\DATN\KFCManagement\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+E:\DATN\KFCManagement\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+E:\DATN\KFCManagement\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\DATN\KFCManagement\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+E:\DATN\KFCManagement\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\DATN\KFCManagement\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\DATN\KFCManagement\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+E:\DATN\KFCManagement\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+E:\DATN\KFCManagement\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\DATN\KFCManagement\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+E:\DATN\KFCManagement\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+E:\DATN\KFCManagement\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+E:\DATN\KFCManagement\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+E:\DATN\KFCManagement\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+E:\DATN\KFCManagement\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+E:\DATN\KFCManagement\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+E:\DATN\KFCManagement\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\DATN\KFCManagement\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+E:\DATN\KFCManagement\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+E:\DATN\KFCManagement\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\DATN\KFCManagement\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+E:\DATN\KFCManagement\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+E:\DATN\KFCManagement\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+E:\DATN\KFCManagement\bin\Debug\net8.0\Mono.TextTemplating.dll
+E:\DATN\KFCManagement\bin\Debug\net8.0\System.ClientModel.dll
+E:\DATN\KFCManagement\bin\Debug\net8.0\System.CodeDom.dll
+E:\DATN\KFCManagement\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+E:\DATN\KFCManagement\bin\Debug\net8.0\System.Composition.Convention.dll
+E:\DATN\KFCManagement\bin\Debug\net8.0\System.Composition.Hosting.dll
+E:\DATN\KFCManagement\bin\Debug\net8.0\System.Composition.Runtime.dll
+E:\DATN\KFCManagement\bin\Debug\net8.0\System.Composition.TypedParts.dll
+E:\DATN\KFCManagement\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+E:\DATN\KFCManagement\bin\Debug\net8.0\System.Drawing.Common.dll
+E:\DATN\KFCManagement\bin\Debug\net8.0\System.Formats.Asn1.dll
+E:\DATN\KFCManagement\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+E:\DATN\KFCManagement\bin\Debug\net8.0\System.Memory.Data.dll
+E:\DATN\KFCManagement\bin\Debug\net8.0\System.Runtime.Caching.dll
+E:\DATN\KFCManagement\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+E:\DATN\KFCManagement\bin\Debug\net8.0\System.Security.Permissions.dll
+E:\DATN\KFCManagement\bin\Debug\net8.0\System.Windows.Extensions.dll
+E:\DATN\KFCManagement\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+E:\DATN\KFCManagement\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+E:\DATN\KFCManagement\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+E:\DATN\KFCManagement\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+E:\DATN\KFCManagement\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+E:\DATN\KFCManagement\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+E:\DATN\KFCManagement\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+E:\DATN\KFCManagement\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+E:\DATN\KFCManagement\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+E:\DATN\KFCManagement\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+E:\DATN\KFCManagement\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+E:\DATN\KFCManagement\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+E:\DATN\KFCManagement\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+E:\DATN\KFCManagement\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\DATN\KFCManagement\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\DATN\KFCManagement\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\DATN\KFCManagement\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\DATN\KFCManagement\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\DATN\KFCManagement\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\DATN\KFCManagement\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\DATN\KFCManagement\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\DATN\KFCManagement\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\DATN\KFCManagement\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\DATN\KFCManagement\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\DATN\KFCManagement\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\DATN\KFCManagement\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\DATN\KFCManagement\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\DATN\KFCManagement\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\DATN\KFCManagement\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\DATN\KFCManagement\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\DATN\KFCManagement\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\DATN\KFCManagement\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\DATN\KFCManagement\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\DATN\KFCManagement\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\DATN\KFCManagement\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\DATN\KFCManagement\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\DATN\KFCManagement\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\DATN\KFCManagement\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\DATN\KFCManagement\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\DATN\KFCManagement\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\DATN\KFCManagement\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\DATN\KFCManagement\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\DATN\KFCManagement\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\DATN\KFCManagement\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\DATN\KFCManagement\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\DATN\KFCManagement\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\DATN\KFCManagement\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\DATN\KFCManagement\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\DATN\KFCManagement\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\DATN\KFCManagement\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\DATN\KFCManagement\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\DATN\KFCManagement\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\DATN\KFCManagement\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+E:\DATN\KFCManagement\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+E:\DATN\KFCManagement\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+E:\DATN\KFCManagement\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\DATN\KFCManagement\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\DATN\KFCManagement\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\DATN\KFCManagement\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+E:\DATN\KFCManagement\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+E:\DATN\KFCManagement\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+E:\DATN\KFCManagement\obj\Debug\net8.0\KFCManagement.csproj.AssemblyReference.cache
+E:\DATN\KFCManagement\obj\Debug\net8.0\KFCManagement.GeneratedMSBuildEditorConfig.editorconfig
+E:\DATN\KFCManagement\obj\Debug\net8.0\KFCManagement.AssemblyInfoInputs.cache
+E:\DATN\KFCManagement\obj\Debug\net8.0\KFCManagement.AssemblyInfo.cs
+E:\DATN\KFCManagement\obj\Debug\net8.0\KFCManagement.csproj.CoreCompileInputs.cache
+E:\DATN\KFCManagement\obj\Debug\net8.0\KFCManagement.MvcApplicationPartsAssemblyInfo.cache
+E:\DATN\KFCManagement\obj\Debug\net8.0\KFCManagement.RazorAssemblyInfo.cache
+E:\DATN\KFCManagement\obj\Debug\net8.0\KFCManagement.RazorAssemblyInfo.cs
+E:\DATN\KFCManagement\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+E:\DATN\KFCManagement\obj\Debug\net8.0\scopedcss\bundle\KFCManagement.styles.css
+E:\DATN\KFCManagement\obj\Debug\net8.0\scopedcss\projectbundle\KFCManagement.bundle.scp.css
+E:\DATN\KFCManagement\obj\Debug\net8.0\staticwebassets.build.json
+E:\DATN\KFCManagement\obj\Debug\net8.0\staticwebassets.development.json
+E:\DATN\KFCManagement\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+E:\DATN\KFCManagement\obj\Debug\net8.0\staticwebassets\msbuild.KFCManagement.Microsoft.AspNetCore.StaticWebAssets.props
+E:\DATN\KFCManagement\obj\Debug\net8.0\staticwebassets\msbuild.KFCManagement.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+E:\DATN\KFCManagement\obj\Debug\net8.0\staticwebassets\msbuild.build.KFCManagement.props
+E:\DATN\KFCManagement\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.KFCManagement.props
+E:\DATN\KFCManagement\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.KFCManagement.props
+E:\DATN\KFCManagement\obj\Debug\net8.0\staticwebassets.pack.json
+E:\DATN\KFCManagement\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+E:\DATN\KFCManagement\obj\Debug\net8.0\KFCManag.EE6314F9.Up2Date
+E:\DATN\KFCManagement\obj\Debug\net8.0\KFCManagement.dll
+E:\DATN\KFCManagement\obj\Debug\net8.0\refint\KFCManagement.dll
+E:\DATN\KFCManagement\obj\Debug\net8.0\KFCManagement.pdb
+E:\DATN\KFCManagement\obj\Debug\net8.0\KFCManagement.genruntimeconfig.cache
+E:\DATN\KFCManagement\obj\Debug\net8.0\ref\KFCManagement.dll
+E:\DATN\KFCManagement\bin\Debug\net8.0\EPPlus.dll
+E:\DATN\KFCManagement\bin\Debug\net8.0\EPPlus.Interfaces.dll
+E:\DATN\KFCManagement\bin\Debug\net8.0\EPPlus.System.Drawing.dll
+E:\DATN\KFCManagement\bin\Debug\net8.0\Microsoft.Bcl.Cryptography.dll
+E:\DATN\KFCManagement\bin\Debug\net8.0\Microsoft.Extensions.Configuration.dll
+E:\DATN\KFCManagement\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+E:\DATN\KFCManagement\bin\Debug\net8.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+E:\DATN\KFCManagement\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Json.dll
+E:\DATN\KFCManagement\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+E:\DATN\KFCManagement\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Physical.dll
+E:\DATN\KFCManagement\bin\Debug\net8.0\Microsoft.Extensions.FileSystemGlobbing.dll
+E:\DATN\KFCManagement\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+E:\DATN\KFCManagement\bin\Debug\net8.0\Microsoft.IO.RecyclableMemoryStream.dll
+E:\DATN\KFCManagement\bin\Debug\net8.0\System.IO.Pipelines.dll
+E:\DATN\KFCManagement\bin\Debug\net8.0\System.Security.Cryptography.Pkcs.dll
+E:\DATN\KFCManagement\bin\Debug\net8.0\System.Text.Encoding.CodePages.dll
+E:\DATN\KFCManagement\bin\Debug\net8.0\System.Text.Encodings.Web.dll
+E:\DATN\KFCManagement\bin\Debug\net8.0\System.Text.Json.dll
+E:\DATN\KFCManagement\bin\Debug\net8.0\runtimes\win\lib\net8.0\Microsoft.Win32.SystemEvents.dll
+E:\DATN\KFCManagement\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
+E:\DATN\KFCManagement\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Text.Encoding.CodePages.dll
+E:\DATN\KFCManagement\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+E:\DATN\KFCManagement\obj\Debug\net8.0\KFCManagement.sourcelink.json
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\appsettings.json
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\KFCManagement.staticwebassets.runtime.json
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\KFCManagement.exe
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\KFCManagement.deps.json
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\KFCManagement.runtimeconfig.json
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\KFCManagement.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\KFCManagement.pdb
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\Azure.Core.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\Azure.Identity.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\EPPlus.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\EPPlus.Interfaces.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\EPPlus.System.Drawing.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\Humanizer.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\Microsoft.Bcl.Cryptography.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\Microsoft.Extensions.Configuration.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\Microsoft.IO.RecyclableMemoryStream.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\Mono.TextTemplating.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\System.ClientModel.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\System.CodeDom.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\System.Composition.Convention.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\System.Composition.Hosting.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\System.Composition.Runtime.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\System.Composition.TypedParts.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\System.Drawing.Common.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\System.Formats.Asn1.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\System.IO.Pipelines.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\System.Memory.Data.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\System.Runtime.Caching.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\System.Text.Encoding.CodePages.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\System.Text.Encodings.Web.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\System.Text.Json.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\System.Windows.Extensions.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\runtimes\win\lib\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Text.Encoding.CodePages.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\obj\Debug\net8.0\KFCManagement.csproj.AssemblyReference.cache
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\obj\Debug\net8.0\KFCManagement.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\obj\Debug\net8.0\KFCManagement.AssemblyInfoInputs.cache
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\obj\Debug\net8.0\KFCManagement.AssemblyInfo.cs
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\obj\Debug\net8.0\KFCManagement.csproj.CoreCompileInputs.cache
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\obj\Debug\net8.0\KFCManagement.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\obj\Debug\net8.0\KFCManagement.RazorAssemblyInfo.cache
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\obj\Debug\net8.0\KFCManagement.RazorAssemblyInfo.cs
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\obj\Debug\net8.0\staticwebassets\msbuild.KFCManagement.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\obj\Debug\net8.0\staticwebassets\msbuild.build.KFCManagement.props
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.KFCManagement.props
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.KFCManagement.props
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\obj\Debug\net8.0\scopedcss\bundle\KFCManagement.styles.css
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\obj\Debug\net8.0\scopedcss\projectbundle\KFCManagement.bundle.scp.css
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\obj\Debug\net8.0\KFCManag.EE6314F9.Up2Date
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\obj\Debug\net8.0\KFCManagement.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\obj\Debug\net8.0\refint\KFCManagement.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\obj\Debug\net8.0\KFCManagement.pdb
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\obj\Debug\net8.0\KFCManagement.genruntimeconfig.cache
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\obj\Debug\net8.0\ref\KFCManagement.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\Microsoft.Build.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\Microsoft.Build.Framework.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Features.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\Microsoft.CodeAnalysis.Elfie.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\Microsoft.CodeAnalysis.Features.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\Microsoft.DiaSymReader.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\Microsoft.DotNet.Scaffolding.Shared.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\Microsoft.NET.StringTools.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\dotnet-aspnet-codegenerator-design.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\NuGet.Common.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\NuGet.Configuration.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\NuGet.DependencyResolver.Core.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\NuGet.Frameworks.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\NuGet.LibraryModel.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\NuGet.Packaging.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\NuGet.ProjectModel.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\NuGet.Protocol.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\NuGet.Versioning.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\System.Reflection.MetadataLoadContext.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\af\Humanizer.resources.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\ar\Humanizer.resources.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\az\Humanizer.resources.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\bg\Humanizer.resources.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\bn-BD\Humanizer.resources.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\cs\Humanizer.resources.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\da\Humanizer.resources.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\de\Humanizer.resources.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\el\Humanizer.resources.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\es\Humanizer.resources.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\fa\Humanizer.resources.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\fi-FI\Humanizer.resources.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\fr\Humanizer.resources.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\fr-BE\Humanizer.resources.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\he\Humanizer.resources.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\hr\Humanizer.resources.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\hu\Humanizer.resources.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\hy\Humanizer.resources.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\id\Humanizer.resources.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\is\Humanizer.resources.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\it\Humanizer.resources.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\ja\Humanizer.resources.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\ko-KR\Humanizer.resources.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\ku\Humanizer.resources.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\lv\Humanizer.resources.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\ms-MY\Humanizer.resources.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\mt\Humanizer.resources.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\nb\Humanizer.resources.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\nb-NO\Humanizer.resources.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\nl\Humanizer.resources.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\pl\Humanizer.resources.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\pt\Humanizer.resources.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\ro\Humanizer.resources.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\ru\Humanizer.resources.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\sk\Humanizer.resources.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\sl\Humanizer.resources.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\sr\Humanizer.resources.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\sr-Latn\Humanizer.resources.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\sv\Humanizer.resources.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\th-TH\Humanizer.resources.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\tr\Humanizer.resources.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\uk\Humanizer.resources.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\uz-Cyrl-UZ\Humanizer.resources.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\uz-Latn-UZ\Humanizer.resources.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\vi\Humanizer.resources.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\zh-CN\Humanizer.resources.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\zh-Hans\Humanizer.resources.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\zh-Hant\Humanizer.resources.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\VU SON\Downloads\KFCManagement-main (1)\KFCManagement-main\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\appsettings.Development.json
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\appsettings.json
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\KFCManagement.staticwebassets.runtime.json
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\KFCManagement.exe
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\KFCManagement.deps.json
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\KFCManagement.runtimeconfig.json
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\KFCManagement.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\KFCManagement.pdb
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\Azure.Core.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\Azure.Identity.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\EPPlus.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\EPPlus.Interfaces.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\EPPlus.System.Drawing.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\Humanizer.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\Microsoft.AspNetCore.Razor.Language.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\Microsoft.Bcl.Cryptography.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\Microsoft.Build.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\Microsoft.Build.Framework.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Features.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\Microsoft.CodeAnalysis.Elfie.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\Microsoft.CodeAnalysis.Features.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\Microsoft.CodeAnalysis.Razor.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\Microsoft.CodeAnalysis.Scripting.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\Microsoft.DiaSymReader.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\Microsoft.DotNet.Scaffolding.Shared.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\Microsoft.Extensions.Configuration.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Json.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Physical.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\Microsoft.Extensions.FileSystemGlobbing.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\Microsoft.IO.RecyclableMemoryStream.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\Microsoft.NET.StringTools.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\dotnet-aspnet-codegenerator-design.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\Mono.TextTemplating.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\NuGet.Common.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\NuGet.Configuration.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\NuGet.DependencyResolver.Core.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\NuGet.Frameworks.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\NuGet.LibraryModel.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\NuGet.Packaging.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\NuGet.ProjectModel.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\NuGet.Protocol.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\NuGet.Versioning.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\System.ClientModel.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\System.CodeDom.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\System.Composition.Convention.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\System.Composition.Hosting.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\System.Composition.Runtime.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\System.Composition.TypedParts.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\System.Drawing.Common.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\System.Formats.Asn1.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\System.IO.Pipelines.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\System.Memory.Data.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\System.Reflection.MetadataLoadContext.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\System.Runtime.Caching.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\System.Security.Cryptography.Pkcs.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\System.Security.Permissions.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\System.Text.Encoding.CodePages.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\System.Text.Encodings.Web.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\System.Text.Json.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\System.Windows.Extensions.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\af\Humanizer.resources.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\ar\Humanizer.resources.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\az\Humanizer.resources.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\bg\Humanizer.resources.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\bn-BD\Humanizer.resources.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\cs\Humanizer.resources.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\da\Humanizer.resources.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\de\Humanizer.resources.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\el\Humanizer.resources.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\es\Humanizer.resources.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\fa\Humanizer.resources.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\fi-FI\Humanizer.resources.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\fr\Humanizer.resources.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\fr-BE\Humanizer.resources.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\he\Humanizer.resources.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\hr\Humanizer.resources.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\hu\Humanizer.resources.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\hy\Humanizer.resources.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\id\Humanizer.resources.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\is\Humanizer.resources.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\it\Humanizer.resources.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\ja\Humanizer.resources.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\ko-KR\Humanizer.resources.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\ku\Humanizer.resources.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\lv\Humanizer.resources.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\ms-MY\Humanizer.resources.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\mt\Humanizer.resources.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\nb\Humanizer.resources.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\nb-NO\Humanizer.resources.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\nl\Humanizer.resources.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\pl\Humanizer.resources.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\pt\Humanizer.resources.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\ro\Humanizer.resources.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\ru\Humanizer.resources.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\sk\Humanizer.resources.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\sl\Humanizer.resources.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\sr\Humanizer.resources.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\sr-Latn\Humanizer.resources.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\sv\Humanizer.resources.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\th-TH\Humanizer.resources.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\tr\Humanizer.resources.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\uk\Humanizer.resources.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\uz-Cyrl-UZ\Humanizer.resources.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\uz-Latn-UZ\Humanizer.resources.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\vi\Humanizer.resources.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\zh-CN\Humanizer.resources.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\zh-Hans\Humanizer.resources.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\zh-Hant\Humanizer.resources.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\runtimes\win\lib\net8.0\Microsoft.Win32.SystemEvents.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Text.Encoding.CodePages.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\obj\Debug\net8.0\KFCManagement.csproj.AssemblyReference.cache
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\obj\Debug\net8.0\KFCManagement.GeneratedMSBuildEditorConfig.editorconfig
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\obj\Debug\net8.0\KFCManagement.AssemblyInfoInputs.cache
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\obj\Debug\net8.0\KFCManagement.AssemblyInfo.cs
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\obj\Debug\net8.0\KFCManagement.csproj.CoreCompileInputs.cache
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\obj\Debug\net8.0\KFCManagement.MvcApplicationPartsAssemblyInfo.cache
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\obj\Debug\net8.0\KFCManagement.RazorAssemblyInfo.cache
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\obj\Debug\net8.0\KFCManagement.RazorAssemblyInfo.cs
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\obj\Debug\net8.0\staticwebassets.build.json
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\obj\Debug\net8.0\staticwebassets.development.json
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\obj\Debug\net8.0\staticwebassets\msbuild.KFCManagement.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\obj\Debug\net8.0\staticwebassets\msbuild.build.KFCManagement.props
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.KFCManagement.props
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.KFCManagement.props
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\obj\Debug\net8.0\staticwebassets.pack.json
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\obj\Debug\net8.0\scopedcss\bundle\KFCManagement.styles.css
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\obj\Debug\net8.0\scopedcss\projectbundle\KFCManagement.bundle.scp.css
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\obj\Debug\net8.0\KFCManag.EE6314F9.Up2Date
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\obj\Debug\net8.0\KFCManagement.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\obj\Debug\net8.0\refint\KFCManagement.dll
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\obj\Debug\net8.0\KFCManagement.pdb
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\obj\Debug\net8.0\KFCManagement.genruntimeconfig.cache
+D:\Đồ án tốt nghiệp-Nhà hàng KFC\KFCManagement-main\obj\Debug\net8.0\ref\KFCManagement.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\appsettings.json
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\KFCManagement.staticwebassets.runtime.json
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\KFCManagement.exe
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\KFCManagement.deps.json
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\KFCManagement.runtimeconfig.json
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\KFCManagement.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\KFCManagement.pdb
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\Azure.Core.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\Azure.Identity.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\EPPlus.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\EPPlus.Interfaces.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\EPPlus.System.Drawing.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\Humanizer.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\Microsoft.Bcl.Cryptography.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\Microsoft.Build.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\Microsoft.Build.Framework.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Features.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\Microsoft.CodeAnalysis.Elfie.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\Microsoft.CodeAnalysis.Features.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\Microsoft.DiaSymReader.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\Microsoft.DotNet.Scaffolding.Shared.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\Microsoft.Extensions.Configuration.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\Microsoft.IO.RecyclableMemoryStream.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\Microsoft.NET.StringTools.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\dotnet-aspnet-codegenerator-design.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\Mono.TextTemplating.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\NuGet.Common.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\NuGet.Configuration.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\NuGet.DependencyResolver.Core.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\NuGet.Frameworks.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\NuGet.LibraryModel.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\NuGet.Packaging.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\NuGet.ProjectModel.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\NuGet.Protocol.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\NuGet.Versioning.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\System.ClientModel.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\System.CodeDom.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\System.Composition.Convention.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\System.Composition.Hosting.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\System.Composition.Runtime.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\System.Composition.TypedParts.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\System.Drawing.Common.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\System.Formats.Asn1.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\System.IO.Pipelines.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\System.Memory.Data.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\System.Reflection.MetadataLoadContext.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\System.Runtime.Caching.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\System.Text.Encoding.CodePages.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\System.Text.Encodings.Web.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\System.Text.Json.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\System.Windows.Extensions.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\af\Humanizer.resources.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\ar\Humanizer.resources.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\az\Humanizer.resources.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\bg\Humanizer.resources.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\bn-BD\Humanizer.resources.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\cs\Humanizer.resources.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\da\Humanizer.resources.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\de\Humanizer.resources.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\el\Humanizer.resources.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\es\Humanizer.resources.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\fa\Humanizer.resources.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\fi-FI\Humanizer.resources.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\fr\Humanizer.resources.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\fr-BE\Humanizer.resources.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\he\Humanizer.resources.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\hr\Humanizer.resources.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\hu\Humanizer.resources.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\hy\Humanizer.resources.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\id\Humanizer.resources.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\is\Humanizer.resources.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\it\Humanizer.resources.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\ja\Humanizer.resources.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\ko-KR\Humanizer.resources.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\ku\Humanizer.resources.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\lv\Humanizer.resources.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\ms-MY\Humanizer.resources.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\mt\Humanizer.resources.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\nb\Humanizer.resources.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\nb-NO\Humanizer.resources.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\nl\Humanizer.resources.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\pl\Humanizer.resources.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\pt\Humanizer.resources.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\ro\Humanizer.resources.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\ru\Humanizer.resources.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\sk\Humanizer.resources.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\sl\Humanizer.resources.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\sr\Humanizer.resources.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\sr-Latn\Humanizer.resources.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\sv\Humanizer.resources.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\th-TH\Humanizer.resources.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\tr\Humanizer.resources.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\uk\Humanizer.resources.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\uz-Cyrl-UZ\Humanizer.resources.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\uz-Latn-UZ\Humanizer.resources.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\vi\Humanizer.resources.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\zh-CN\Humanizer.resources.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\zh-Hans\Humanizer.resources.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\zh-Hant\Humanizer.resources.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\runtimes\win\lib\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Text.Encoding.CodePages.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\obj\Debug\net8.0\KFCManagement.csproj.AssemblyReference.cache
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\obj\Debug\net8.0\KFCManagement.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\obj\Debug\net8.0\KFCManagement.AssemblyInfoInputs.cache
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\obj\Debug\net8.0\KFCManagement.AssemblyInfo.cs
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\obj\Debug\net8.0\KFCManagement.csproj.CoreCompileInputs.cache
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\obj\Debug\net8.0\KFCManagement.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\obj\Debug\net8.0\KFCManagement.RazorAssemblyInfo.cache
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\obj\Debug\net8.0\KFCManagement.RazorAssemblyInfo.cs
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\obj\Debug\net8.0\KFCManagement.sourcelink.json
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\obj\Debug\net8.0\staticwebassets\msbuild.KFCManagement.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\obj\Debug\net8.0\staticwebassets\msbuild.build.KFCManagement.props
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.KFCManagement.props
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.KFCManagement.props
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\obj\Debug\net8.0\scopedcss\bundle\KFCManagement.styles.css
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\obj\Debug\net8.0\scopedcss\projectbundle\KFCManagement.bundle.scp.css
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\obj\Debug\net8.0\KFCManag.EE6314F9.Up2Date
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\obj\Debug\net8.0\KFCManagement.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\obj\Debug\net8.0\refint\KFCManagement.dll
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\obj\Debug\net8.0\KFCManagement.pdb
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\obj\Debug\net8.0\KFCManagement.genruntimeconfig.cache
+C:\Users\VU SON\Documents\GitHub\NhaHangKFC\KFCManagement-main\obj\Debug\net8.0\ref\KFCManagement.dll

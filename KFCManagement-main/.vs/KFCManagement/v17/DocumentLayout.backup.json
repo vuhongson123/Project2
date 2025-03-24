@@ -1,0 +1,549 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\VU SON\\Documents\\GitHub\\NhaHangKFC\\KFCManagement-main\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BAFA2C4D-C194-491C-9D59-C7AE9162932B}|KFCManagement.csproj|c:\\users\\vu son\\documents\\github\\nhahangkfc\\kfcmanagement-main\\controllers\\orderdetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAFA2C4D-C194-491C-9D59-C7AE9162932B}|KFCManagement.csproj|solutionrelative:controllers\\orderdetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAFA2C4D-C194-491C-9D59-C7AE9162932B}|KFCManagement.csproj|c:\\users\\vu son\\documents\\github\\nhahangkfc\\kfcmanagement-main\\controllers\\loginccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAFA2C4D-C194-491C-9D59-C7AE9162932B}|KFCManagement.csproj|solutionrelative:controllers\\loginccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAFA2C4D-C194-491C-9D59-C7AE9162932B}|KFCManagement.csproj|c:\\users\\vu son\\documents\\github\\nhahangkfc\\kfcmanagement-main\\views\\orderdetails\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BAFA2C4D-C194-491C-9D59-C7AE9162932B}|KFCManagement.csproj|solutionrelative:views\\orderdetails\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAFA2C4D-C194-491C-9D59-C7AE9162932B}|KFCManagement.csproj|c:\\users\\vu son\\documents\\github\\nhahangkfc\\kfcmanagement-main\\views\\orderdetails\\orderconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BAFA2C4D-C194-491C-9D59-C7AE9162932B}|KFCManagement.csproj|solutionrelative:views\\orderdetails\\orderconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAFA2C4D-C194-491C-9D59-C7AE9162932B}|KFCManagement.csproj|c:\\users\\vu son\\documents\\github\\nhahangkfc\\kfcmanagement-main\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{BAFA2C4D-C194-491C-9D59-C7AE9162932B}|KFCManagement.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAFA2C4D-C194-491C-9D59-C7AE9162932B}|KFCManagement.csproj|c:\\users\\vu son\\documents\\github\\nhahangkfc\\kfcmanagement-main\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAFA2C4D-C194-491C-9D59-C7AE9162932B}|KFCManagement.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAFA2C4D-C194-491C-9D59-C7AE9162932B}|KFCManagement.csproj|c:\\users\\vu son\\documents\\github\\nhahangkfc\\kfcmanagement-main\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAFA2C4D-C194-491C-9D59-C7AE9162932B}|KFCManagement.csproj|solutionrelative:models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAFA2C4D-C194-491C-9D59-C7AE9162932B}|KFCManagement.csproj|c:\\users\\vu son\\documents\\github\\nhahangkfc\\kfcmanagement-main\\areas\\adminmanagement\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAFA2C4D-C194-491C-9D59-C7AE9162932B}|KFCManagement.csproj|solutionrelative:areas\\adminmanagement\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAFA2C4D-C194-491C-9D59-C7AE9162932B}|KFCManagement.csproj|c:\\users\\vu son\\documents\\github\\nhahangkfc\\kfcmanagement-main\\models\\ordersc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAFA2C4D-C194-491C-9D59-C7AE9162932B}|KFCManagement.csproj|solutionrelative:models\\ordersc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAFA2C4D-C194-491C-9D59-C7AE9162932B}|KFCManagement.csproj|c:\\users\\vu son\\documents\\github\\nhahangkfc\\kfcmanagement-main\\models\\menuitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAFA2C4D-C194-491C-9D59-C7AE9162932B}|KFCManagement.csproj|solutionrelative:models\\menuitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAFA2C4D-C194-491C-9D59-C7AE9162932B}|KFCManagement.csproj|c:\\users\\vu son\\documents\\github\\nhahangkfc\\kfcmanagement-main\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BAFA2C4D-C194-491C-9D59-C7AE9162932B}|KFCManagement.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAFA2C4D-C194-491C-9D59-C7AE9162932B}|KFCManagement.csproj|c:\\users\\vu son\\documents\\github\\nhahangkfc\\kfcmanagement-main\\models\\table.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAFA2C4D-C194-491C-9D59-C7AE9162932B}|KFCManagement.csproj|solutionrelative:models\\table.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAFA2C4D-C194-491C-9D59-C7AE9162932B}|KFCManagement.csproj|c:\\users\\vu son\\documents\\github\\nhahangkfc\\kfcmanagement-main\\models\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAFA2C4D-C194-491C-9D59-C7AE9162932B}|KFCManagement.csproj|solutionrelative:models\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAFA2C4D-C194-491C-9D59-C7AE9162932B}|KFCManagement.csproj|c:\\users\\vu son\\documents\\github\\nhahangkfc\\kfcmanagement-main\\models\\loginc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAFA2C4D-C194-491C-9D59-C7AE9162932B}|KFCManagement.csproj|solutionrelative:models\\loginc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAFA2C4D-C194-491C-9D59-C7AE9162932B}|KFCManagement.csproj|c:\\users\\vu son\\documents\\github\\nhahangkfc\\kfcmanagement-main\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAFA2C4D-C194-491C-9D59-C7AE9162932B}|KFCManagement.csproj|solutionrelative:models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAFA2C4D-C194-491C-9D59-C7AE9162932B}|KFCManagement.csproj|c:\\users\\vu son\\documents\\github\\nhahangkfc\\kfcmanagement-main\\models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAFA2C4D-C194-491C-9D59-C7AE9162932B}|KFCManagement.csproj|solutionrelative:models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAFA2C4D-C194-491C-9D59-C7AE9162932B}|KFCManagement.csproj|c:\\users\\vu son\\documents\\github\\nhahangkfc\\kfcmanagement-main\\controllers\\menuitemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAFA2C4D-C194-491C-9D59-C7AE9162932B}|KFCManagement.csproj|solutionrelative:controllers\\menuitemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAFA2C4D-C194-491C-9D59-C7AE9162932B}|KFCManagement.csproj|c:\\users\\vu son\\documents\\github\\nhahangkfc\\kfcmanagement-main\\areas\\adminmanagement\\controllers\\adminscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAFA2C4D-C194-491C-9D59-C7AE9162932B}|KFCManagement.csproj|solutionrelative:areas\\adminmanagement\\controllers\\adminscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAFA2C4D-C194-491C-9D59-C7AE9162932B}|KFCManagement.csproj|c:\\users\\vu son\\documents\\github\\nhahangkfc\\kfcmanagement-main\\areas\\adminmanagement\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAFA2C4D-C194-491C-9D59-C7AE9162932B}|KFCManagement.csproj|solutionrelative:areas\\adminmanagement\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAFA2C4D-C194-491C-9D59-C7AE9162932B}|KFCManagement.csproj|c:\\users\\vu son\\documents\\github\\nhahangkfc\\kfcmanagement-main\\areas\\adminmanagement\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BAFA2C4D-C194-491C-9D59-C7AE9162932B}|KFCManagement.csproj|solutionrelative:areas\\adminmanagement\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAFA2C4D-C194-491C-9D59-C7AE9162932B}|KFCManagement.csproj|c:\\users\\vu son\\documents\\github\\nhahangkfc\\kfcmanagement-main\\areas\\adminmanagement\\views\\admins\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BAFA2C4D-C194-491C-9D59-C7AE9162932B}|KFCManagement.csproj|solutionrelative:areas\\adminmanagement\\views\\admins\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAFA2C4D-C194-491C-9D59-C7AE9162932B}|KFCManagement.csproj|c:\\users\\vu son\\documents\\github\\nhahangkfc\\kfcmanagement-main\\areas\\adminmanagement\\controllers\\tablescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAFA2C4D-C194-491C-9D59-C7AE9162932B}|KFCManagement.csproj|solutionrelative:areas\\adminmanagement\\controllers\\tablescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAFA2C4D-C194-491C-9D59-C7AE9162932B}|KFCManagement.csproj|c:\\users\\vu son\\documents\\github\\nhahangkfc\\kfcmanagement-main\\areas\\adminmanagement\\controllers\\reservationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAFA2C4D-C194-491C-9D59-C7AE9162932B}|KFCManagement.csproj|solutionrelative:areas\\adminmanagement\\controllers\\reservationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAFA2C4D-C194-491C-9D59-C7AE9162932B}|KFCManagement.csproj|c:\\users\\vu son\\documents\\github\\nhahangkfc\\kfcmanagement-main\\areas\\adminmanagement\\controllers\\orderdetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAFA2C4D-C194-491C-9D59-C7AE9162932B}|KFCManagement.csproj|solutionrelative:areas\\adminmanagement\\controllers\\orderdetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAFA2C4D-C194-491C-9D59-C7AE9162932B}|KFCManagement.csproj|c:\\users\\vu son\\documents\\github\\nhahangkfc\\kfcmanagement-main\\areas\\adminmanagement\\controllers\\menuscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAFA2C4D-C194-491C-9D59-C7AE9162932B}|KFCManagement.csproj|solutionrelative:areas\\adminmanagement\\controllers\\menuscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAFA2C4D-C194-491C-9D59-C7AE9162932B}|KFCManagement.csproj|c:\\users\\vu son\\documents\\github\\nhahangkfc\\kfcmanagement-main\\areas\\adminmanagement\\controllers\\menuitemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAFA2C4D-C194-491C-9D59-C7AE9162932B}|KFCManagement.csproj|solutionrelative:areas\\adminmanagement\\controllers\\menuitemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAFA2C4D-C194-491C-9D59-C7AE9162932B}|KFCManagement.csproj|c:\\users\\vu son\\documents\\github\\nhahangkfc\\kfcmanagement-main\\areas\\adminmanagement\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAFA2C4D-C194-491C-9D59-C7AE9162932B}|KFCManagement.csproj|solutionrelative:areas\\adminmanagement\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAFA2C4D-C194-491C-9D59-C7AE9162932B}|KFCManagement.csproj|c:\\users\\vu son\\documents\\github\\nhahangkfc\\kfcmanagement-main\\areas\\adminmanagement\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAFA2C4D-C194-491C-9D59-C7AE9162932B}|KFCManagement.csproj|solutionrelative:areas\\adminmanagement\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAFA2C4D-C194-491C-9D59-C7AE9162932B}|KFCManagement.csproj|c:\\users\\vu son\\documents\\github\\nhahangkfc\\kfcmanagement-main\\areas\\adminmanagement\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAFA2C4D-C194-491C-9D59-C7AE9162932B}|KFCManagement.csproj|solutionrelative:areas\\adminmanagement\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAFA2C4D-C194-491C-9D59-C7AE9162932B}|KFCManagement.csproj|c:\\users\\vu son\\documents\\github\\nhahangkfc\\kfcmanagement-main\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{BAFA2C4D-C194-491C-9D59-C7AE9162932B}|KFCManagement.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAFA2C4D-C194-491C-9D59-C7AE9162932B}|KFCManagement.csproj|c:\\users\\vu son\\documents\\github\\nhahangkfc\\kfcmanagement-main\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{BAFA2C4D-C194-491C-9D59-C7AE9162932B}|KFCManagement.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAFA2C4D-C194-491C-9D59-C7AE9162932B}|KFCManagement.csproj|c:\\users\\vu son\\documents\\github\\nhahangkfc\\kfcmanagement-main\\views\\home\\menu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BAFA2C4D-C194-491C-9D59-C7AE9162932B}|KFCManagement.csproj|solutionrelative:views\\home\\menu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAFA2C4D-C194-491C-9D59-C7AE9162932B}|KFCManagement.csproj|c:\\users\\vu son\\documents\\github\\nhahangkfc\\kfcmanagement-main\\models\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAFA2C4D-C194-491C-9D59-C7AE9162932B}|KFCManagement.csproj|solutionrelative:models\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 872,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\VU SON\\Documents\\GitHub\\NhaHangKFC\\KFCManagement-main\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\VU SON\\Documents\\GitHub\\NhaHangKFC\\KFCManagement-main\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T02:59:09.128Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\VU SON\\Documents\\GitHub\\NhaHangKFC\\KFCManagement-main\\Models\\Customer.cs",
+              "RelativeDocumentMoniker": "Models\\Customer.cs",
+              "ToolTip": "C:\\Users\\VU SON\\Documents\\GitHub\\NhaHangKFC\\KFCManagement-main\\Models\\Customer.cs",
+              "RelativeToolTip": "Models\\Customer.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAcwCcAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T02:49:45.013Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\VU SON\\Documents\\GitHub\\NhaHangKFC\\KFCManagement-main\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\VU SON\\Documents\\GitHub\\NhaHangKFC\\KFCManagement-main\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-12T03:50:57.186Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OrderConfirmation.cshtml",
+              "DocumentMoniker": "C:\\Users\\VU SON\\Documents\\GitHub\\NhaHangKFC\\KFCManagement-main\\Views\\OrderDetails\\OrderConfirmation.cshtml",
+              "RelativeDocumentMoniker": "Views\\OrderDetails\\OrderConfirmation.cshtml",
+              "ToolTip": "C:\\Users\\VU SON\\Documents\\GitHub\\NhaHangKFC\\KFCManagement-main\\Views\\OrderDetails\\OrderConfirmation.cshtml",
+              "RelativeToolTip": "Views\\OrderDetails\\OrderConfirmation.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-11T17:36:40.921Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\VU SON\\Documents\\GitHub\\NhaHangKFC\\KFCManagement-main\\Views\\OrderDetails\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\OrderDetails\\Index.cshtml",
+              "ToolTip": "C:\\Users\\VU SON\\Documents\\GitHub\\NhaHangKFC\\KFCManagement-main\\Views\\OrderDetails\\Index.cshtml",
+              "RelativeToolTip": "Views\\OrderDetails\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAB/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-11T16:59:09.852Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OrderDetailsController.cs",
+              "DocumentMoniker": "C:\\Users\\VU SON\\Documents\\GitHub\\NhaHangKFC\\KFCManagement-main\\Controllers\\OrderDetailsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\OrderDetailsController.cs",
+              "ToolTip": "C:\\Users\\VU SON\\Documents\\GitHub\\NhaHangKFC\\KFCManagement-main\\Controllers\\OrderDetailsController.cs",
+              "RelativeToolTip": "Controllers\\OrderDetailsController.cs",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAlwG4AAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T17:06:58.967Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoginCController.cs",
+              "DocumentMoniker": "C:\\Users\\VU SON\\Documents\\GitHub\\NhaHangKFC\\KFCManagement-main\\Controllers\\LoginCController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LoginCController.cs",
+              "ToolTip": "C:\\Users\\VU SON\\Documents\\GitHub\\NhaHangKFC\\KFCManagement-main\\Controllers\\LoginCController.cs",
+              "RelativeToolTip": "Controllers\\LoginCController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T02:44:56.067Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "OrdersController.cs",
+              "DocumentMoniker": "C:\\Users\\VU SON\\Documents\\GitHub\\NhaHangKFC\\KFCManagement-main\\Areas\\AdminManagement\\Controllers\\OrdersController.cs",
+              "RelativeDocumentMoniker": "Areas\\AdminManagement\\Controllers\\OrdersController.cs",
+              "ToolTip": "C:\\Users\\VU SON\\Documents\\GitHub\\NhaHangKFC\\KFCManagement-main\\Areas\\AdminManagement\\Controllers\\OrdersController.cs",
+              "RelativeToolTip": "Areas\\AdminManagement\\Controllers\\OrdersController.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAAADsAAAB9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T03:14:19.958Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "OrdersC.cs",
+              "DocumentMoniker": "C:\\Users\\VU SON\\Documents\\GitHub\\NhaHangKFC\\KFCManagement-main\\Models\\OrdersC.cs",
+              "RelativeDocumentMoniker": "Models\\OrdersC.cs",
+              "ToolTip": "C:\\Users\\VU SON\\Documents\\GitHub\\NhaHangKFC\\KFCManagement-main\\Models\\OrdersC.cs",
+              "RelativeToolTip": "Models\\OrdersC.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T18:24:05.737Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MenuItem.cs",
+              "DocumentMoniker": "C:\\Users\\VU SON\\Documents\\GitHub\\NhaHangKFC\\KFCManagement-main\\Models\\MenuItem.cs",
+              "RelativeDocumentMoniker": "Models\\MenuItem.cs",
+              "ToolTip": "C:\\Users\\VU SON\\Documents\\GitHub\\NhaHangKFC\\KFCManagement-main\\Models\\MenuItem.cs",
+              "RelativeToolTip": "Models\\MenuItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T17:28:59.6Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\VU SON\\Documents\\GitHub\\NhaHangKFC\\KFCManagement-main\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\VU SON\\Documents\\GitHub\\NhaHangKFC\\KFCManagement-main\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAIoAAAAAAAAAAAAAAJ8AAABZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-21T02:46:41.795Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Table.cs",
+              "DocumentMoniker": "C:\\Users\\VU SON\\Documents\\GitHub\\NhaHangKFC\\KFCManagement-main\\Models\\Table.cs",
+              "RelativeDocumentMoniker": "Models\\Table.cs",
+              "ToolTip": "C:\\Users\\VU SON\\Documents\\GitHub\\NhaHangKFC\\KFCManagement-main\\Models\\Table.cs",
+              "RelativeToolTip": "Models\\Table.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T02:50:18.185Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Menu.cs",
+              "DocumentMoniker": "C:\\Users\\VU SON\\Documents\\GitHub\\NhaHangKFC\\KFCManagement-main\\Models\\Menu.cs",
+              "RelativeDocumentMoniker": "Models\\Menu.cs",
+              "ToolTip": "C:\\Users\\VU SON\\Documents\\GitHub\\NhaHangKFC\\KFCManagement-main\\Models\\Menu.cs",
+              "RelativeToolTip": "Models\\Menu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T02:50:04.002Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "LoginC.cs",
+              "DocumentMoniker": "C:\\Users\\VU SON\\Documents\\GitHub\\NhaHangKFC\\KFCManagement-main\\Models\\LoginC.cs",
+              "RelativeDocumentMoniker": "Models\\LoginC.cs",
+              "ToolTip": "C:\\Users\\VU SON\\Documents\\GitHub\\NhaHangKFC\\KFCManagement-main\\Models\\LoginC.cs",
+              "RelativeToolTip": "Models\\LoginC.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T02:50:01.681Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\VU SON\\Documents\\GitHub\\NhaHangKFC\\KFCManagement-main\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "Models\\Category.cs",
+              "ToolTip": "C:\\Users\\VU SON\\Documents\\GitHub\\NhaHangKFC\\KFCManagement-main\\Models\\Category.cs",
+              "RelativeToolTip": "Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T02:49:19.915Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Admin.cs",
+              "DocumentMoniker": "C:\\Users\\VU SON\\Documents\\GitHub\\NhaHangKFC\\KFCManagement-main\\Models\\Admin.cs",
+              "RelativeDocumentMoniker": "Models\\Admin.cs",
+              "ToolTip": "C:\\Users\\VU SON\\Documents\\GitHub\\NhaHangKFC\\KFCManagement-main\\Models\\Admin.cs",
+              "RelativeToolTip": "Models\\Admin.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAgwCQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T02:47:35.793Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "MenuItemsController.cs",
+              "DocumentMoniker": "C:\\Users\\VU SON\\Documents\\GitHub\\NhaHangKFC\\KFCManagement-main\\Controllers\\MenuItemsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\MenuItemsController.cs",
+              "ToolTip": "C:\\Users\\VU SON\\Documents\\GitHub\\NhaHangKFC\\KFCManagement-main\\Controllers\\MenuItemsController.cs",
+              "RelativeToolTip": "Controllers\\MenuItemsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T02:43:35.107Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "OrderDetailsController.cs",
+              "DocumentMoniker": "C:\\Users\\VU SON\\Documents\\GitHub\\NhaHangKFC\\KFCManagement-main\\Areas\\AdminManagement\\Controllers\\OrderDetailsController.cs",
+              "RelativeDocumentMoniker": "Areas\\AdminManagement\\Controllers\\OrderDetailsController.cs",
+              "ToolTip": "C:\\Users\\VU SON\\Documents\\GitHub\\NhaHangKFC\\KFCManagement-main\\Areas\\AdminManagement\\Controllers\\OrderDetailsController.cs",
+              "RelativeToolTip": "Areas\\AdminManagement\\Controllers\\OrderDetailsController.cs",
+              "ViewState": "AgIAAJAAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T03:14:13.688Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "MenusController.cs",
+              "DocumentMoniker": "C:\\Users\\VU SON\\Documents\\GitHub\\NhaHangKFC\\KFCManagement-main\\Areas\\AdminManagement\\Controllers\\MenusController.cs",
+              "RelativeDocumentMoniker": "Areas\\AdminManagement\\Controllers\\MenusController.cs",
+              "ToolTip": "C:\\Users\\VU SON\\Documents\\GitHub\\NhaHangKFC\\KFCManagement-main\\Areas\\AdminManagement\\Controllers\\MenusController.cs",
+              "RelativeToolTip": "Areas\\AdminManagement\\Controllers\\MenusController.cs",
+              "ViewState": "AgIAAN0AAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T03:14:08.464Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "BaseController.cs",
+              "DocumentMoniker": "C:\\Users\\VU SON\\Documents\\GitHub\\NhaHangKFC\\KFCManagement-main\\Areas\\AdminManagement\\Controllers\\BaseController.cs",
+              "RelativeDocumentMoniker": "Areas\\AdminManagement\\Controllers\\BaseController.cs",
+              "ToolTip": "C:\\Users\\VU SON\\Documents\\GitHub\\NhaHangKFC\\KFCManagement-main\\Areas\\AdminManagement\\Controllers\\BaseController.cs",
+              "RelativeToolTip": "Areas\\AdminManagement\\Controllers\\BaseController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T03:13:46.254Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\VU SON\\Documents\\GitHub\\NhaHangKFC\\KFCManagement-main\\Areas\\AdminManagement\\Views\\Admins\\Index.cshtml",
+              "RelativeDocumentMoniker": "Areas\\AdminManagement\\Views\\Admins\\Index.cshtml",
+              "ToolTip": "C:\\Users\\VU SON\\Documents\\GitHub\\NhaHangKFC\\KFCManagement-main\\Areas\\AdminManagement\\Views\\Admins\\Index.cshtml",
+              "RelativeToolTip": "Areas\\AdminManagement\\Views\\Admins\\Index.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-20T02:08:55.213Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\VU SON\\Documents\\GitHub\\NhaHangKFC\\KFCManagement-main\\Areas\\AdminManagement\\Views\\Login\\Index.cshtml",
+              "RelativeDocumentMoniker": "Areas\\AdminManagement\\Views\\Login\\Index.cshtml",
+              "ToolTip": "C:\\Users\\VU SON\\Documents\\GitHub\\NhaHangKFC\\KFCManagement-main\\Areas\\AdminManagement\\Views\\Login\\Index.cshtml",
+              "RelativeToolTip": "Areas\\AdminManagement\\Views\\Login\\Index.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-20T02:09:43.177Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AdminsController.cs",
+              "DocumentMoniker": "C:\\Users\\VU SON\\Documents\\GitHub\\NhaHangKFC\\KFCManagement-main\\Areas\\AdminManagement\\Controllers\\AdminsController.cs",
+              "RelativeDocumentMoniker": "Areas\\AdminManagement\\Controllers\\AdminsController.cs",
+              "ToolTip": "C:\\Users\\VU SON\\Documents\\GitHub\\NhaHangKFC\\KFCManagement-main\\Areas\\AdminManagement\\Controllers\\AdminsController.cs",
+              "RelativeToolTip": "Areas\\AdminManagement\\Controllers\\AdminsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T03:13:32.17Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ReservationsController.cs",
+              "DocumentMoniker": "C:\\Users\\VU SON\\Documents\\GitHub\\NhaHangKFC\\KFCManagement-main\\Areas\\AdminManagement\\Controllers\\ReservationsController.cs",
+              "RelativeDocumentMoniker": "Areas\\AdminManagement\\Controllers\\ReservationsController.cs",
+              "ToolTip": "C:\\Users\\VU SON\\Documents\\GitHub\\NhaHangKFC\\KFCManagement-main\\Areas\\AdminManagement\\Controllers\\ReservationsController.cs",
+              "RelativeToolTip": "Areas\\AdminManagement\\Controllers\\ReservationsController.cs",
+              "ViewState": "AgIAAJYAAAAAAAAAAIBQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T03:14:30.539Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "TablesController.cs",
+              "DocumentMoniker": "C:\\Users\\VU SON\\Documents\\GitHub\\NhaHangKFC\\KFCManagement-main\\Areas\\AdminManagement\\Controllers\\TablesController.cs",
+              "RelativeDocumentMoniker": "Areas\\AdminManagement\\Controllers\\TablesController.cs",
+              "ToolTip": "C:\\Users\\VU SON\\Documents\\GitHub\\NhaHangKFC\\KFCManagement-main\\Areas\\AdminManagement\\Controllers\\TablesController.cs",
+              "RelativeToolTip": "Areas\\AdminManagement\\Controllers\\TablesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T03:14:47.054Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "MenuItemsController.cs",
+              "DocumentMoniker": "C:\\Users\\VU SON\\Documents\\GitHub\\NhaHangKFC\\KFCManagement-main\\Areas\\AdminManagement\\Controllers\\MenuItemsController.cs",
+              "RelativeDocumentMoniker": "Areas\\AdminManagement\\Controllers\\MenuItemsController.cs",
+              "ToolTip": "C:\\Users\\VU SON\\Documents\\GitHub\\NhaHangKFC\\KFCManagement-main\\Areas\\AdminManagement\\Controllers\\MenuItemsController.cs",
+              "RelativeToolTip": "Areas\\AdminManagement\\Controllers\\MenuItemsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T03:14:05.75Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\VU SON\\Documents\\GitHub\\NhaHangKFC\\KFCManagement-main\\Areas\\AdminManagement\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "Areas\\AdminManagement\\Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\VU SON\\Documents\\GitHub\\NhaHangKFC\\KFCManagement-main\\Areas\\AdminManagement\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "Areas\\AdminManagement\\Controllers\\LoginController.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T03:14:00.396Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "DashboardController.cs",
+              "DocumentMoniker": "C:\\Users\\VU SON\\Documents\\GitHub\\NhaHangKFC\\KFCManagement-main\\Areas\\AdminManagement\\Controllers\\DashboardController.cs",
+              "RelativeDocumentMoniker": "Areas\\AdminManagement\\Controllers\\DashboardController.cs",
+              "ToolTip": "C:\\Users\\VU SON\\Documents\\GitHub\\NhaHangKFC\\KFCManagement-main\\Areas\\AdminManagement\\Controllers\\DashboardController.cs",
+              "RelativeToolTip": "Areas\\AdminManagement\\Controllers\\DashboardController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T03:13:58.597Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "CustomersController.cs",
+              "DocumentMoniker": "C:\\Users\\VU SON\\Documents\\GitHub\\NhaHangKFC\\KFCManagement-main\\Areas\\AdminManagement\\Controllers\\CustomersController.cs",
+              "RelativeDocumentMoniker": "Areas\\AdminManagement\\Controllers\\CustomersController.cs",
+              "ToolTip": "C:\\Users\\VU SON\\Documents\\GitHub\\NhaHangKFC\\KFCManagement-main\\Areas\\AdminManagement\\Controllers\\CustomersController.cs",
+              "RelativeToolTip": "Areas\\AdminManagement\\Controllers\\CustomersController.cs",
+              "ViewState": "AgIAAJoAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T03:13:51.924Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\VU SON\\Documents\\GitHub\\NhaHangKFC\\KFCManagement-main\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\VU SON\\Documents\\GitHub\\NhaHangKFC\\KFCManagement-main\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-12T04:39:27.384Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\VU SON\\Documents\\GitHub\\NhaHangKFC\\KFCManagement-main\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "appsettings.Development.json",
+              "ToolTip": "C:\\Users\\VU SON\\Documents\\GitHub\\NhaHangKFC\\KFCManagement-main\\appsettings.Development.json",
+              "RelativeToolTip": "appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-12T04:33:40.667Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "OrderDetail.cs",
+              "DocumentMoniker": "C:\\Users\\VU SON\\Documents\\GitHub\\NhaHangKFC\\KFCManagement-main\\Models\\OrderDetail.cs",
+              "RelativeDocumentMoniker": "Models\\OrderDetail.cs",
+              "ToolTip": "C:\\Users\\VU SON\\Documents\\GitHub\\NhaHangKFC\\KFCManagement-main\\Models\\OrderDetail.cs",
+              "RelativeToolTip": "Models\\OrderDetail.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T17:28:45.034Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Menu.cshtml",
+              "DocumentMoniker": "C:\\Users\\VU SON\\Documents\\GitHub\\NhaHangKFC\\KFCManagement-main\\Views\\Home\\Menu.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Menu.cshtml",
+              "ToolTip": "C:\\Users\\VU SON\\Documents\\GitHub\\NhaHangKFC\\KFCManagement-main\\Views\\Home\\Menu.cshtml",
+              "RelativeToolTip": "Views\\Home\\Menu.cshtml",
+              "ViewState": "AgIAAC0AAAAAAAAAAIBJwEwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-11T17:03:17.628Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

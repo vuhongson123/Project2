@@ -1,0 +1,229 @@
+﻿@model KFCManagement.Models.Customer
+
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+
+    /* Page Wrapper */
+    .edit-page {
+        width: 80%;
+        margin: 30px auto;
+        background-color: #ffffff;
+        padding: 30px;
+        border-radius: 12px;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); /* Softer shadow */
+        border: 2px solid #e2002b; /* Red border */
+    }
+
+    /* Title and Subtitle */
+    .page-title {
+        color: #e2002b; /* Red title */
+        font-size: 2.5rem; /* Larger title */
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .customer-subtitle { /* Not used in your HTML, but keeping for consistency */
+        color: #5f3812; /* Brown subtitle */
+        font-size: 1.8rem;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    /* Grid Layout for Form */
+    .form-row {
+        display: grid;
+        grid-template-columns: 1fr 2fr; /* Label and input columns */
+        gap: 15px;
+        align-items: center;
+        margin-bottom: 15px; /* Space between form rows */
+    }
+
+    .form-group label {
+        font-size: 1rem;
+        color: #202124; /* Dark gray labels */
+        font-weight: 500;
+        text-align: left; /* Align labels to the left */
+        padding-top: 5px; /* Align label with value */
+    }
+
+    .form-group input {
+        background-color: #ffffff; /* White input background */
+        border: 1px solid #ddd; /* Light gray border */
+        padding: 10px;
+        width: 100%;
+        border-radius: 5px;
+        font-size: 1rem;
+        color: #333; /* Dark gray text in input */
+    }
+
+        .form-group input:focus {
+            outline: none;
+            border-color: #e2002b; /* Red focus border */
+            box-shadow: 0 0 5px rgba(226, 0, 43, 0.2); /* Red glow on focus */
+        }
+
+    .text-danger {
+        color: #e2002b; /* Red validation messages */
+        font-size: 0.9rem;
+        margin-top: 5px;
+    }
+
+    /* Submit Button */
+    .btn-save {
+        background-color: #e2002b; /* Red save button */
+        color: #ffffff;
+        padding: 12px 20px;
+        font-size: 1rem;
+        font-weight: bold;
+        border-radius: 5px;
+        border: none;
+        cursor: pointer;
+        width: 100%;
+        transition: background-color 0.3s ease;
+    }
+
+        .btn-save:hover {
+            background-color: #c50024; /* Darker red on hover */
+        }
+
+    /* Back to List Button */
+    .btn-back {
+        background-color: #202124; /* Dark gray back button */
+        color: #ffffff;
+        padding: 12px 20px;
+        font-size: 1rem;
+        font-weight: bold;
+        border-radius: 5px;
+        text-decoration: none;
+        display: inline-block;
+        margin-top: 20px;
+        width: 100%;
+        text-align: center;
+        transition: background-color 0.3s ease;
+    }
+
+        .btn-back:hover {
+            background-color: #555; /* Slightly lighter gray on hover */
+        }
+
+    /* Responsive adjustments (if needed) */
+
+    .form-row {
+        grid-template-columns: 1fr; /* Stack labels and inputs */
+    }
+
+    .form-group label,
+    .form-group input {
+        text-align: left; /* Align text to the left */
+    }
+
+    .page-title {
+        font-size: 2rem;
+    }
+
+    .btn-save,
+    .btn-back {
+        font-size: 0.9rem;
+        padding: 10px 15px;
+    }
+
+    .form-row {
+        display: grid;
+        grid-template-columns: 1fr 1fr; /* Two equal columns */
+        gap: 20px;
+        align-items: center;
+        margin-bottom: 15px;
+    }
+
+    .form-group label {
+        grid-column: 1; /* Label in the first column */
+        font-size: 1rem;
+        color: #202124;
+        font-weight: 500;
+        text-align: left;
+        padding-top: 5px;
+    }
+
+    .form-group input {
+        grid-column: 2; /* Input in the second column */
+        background-color: #ffffff;
+        border: 1px solid #ddd;
+        padding: 10px;
+        width: 100%;
+        border-radius: 5px;
+        font-size: 1rem;
+        color: #333;
+    }
+</style>
+<div class="edit-page">
+    <h1 class="page-title">Sửa thông tin</h1>
+
+    <hr />
+
+    <div class="row" style="justify-content:center;">
+        <div class="col-md-8">
+            <form asp-action="Edit">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                <!-- Hidden field for CustomerId -->
+                <input type="hidden" asp-for="CustomerId" />
+
+                <!-- Form Fields with Grid Layout -->
+                <div class="form-group form-row">
+                    <label asp-for="Name" class="control-label"></label>
+                    <input asp-for="Name" class="form-control" />
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                </div>
+
+                <div class="form-group form-row">
+                    <label asp-for="Email" class="control-label"></label>
+                    <input asp-for="Email" class="form-control" />
+                    <span asp-validation-for="Email" class="text-danger"></span>
+                </div>
+
+                <div class="form-group form-row">
+                    <label asp-for="Password" class="control-label"></label>
+                    <input asp-for="Password" class="form-control" />
+                    <span asp-validation-for="Password" class="text-danger"></span>
+                </div>
+
+                <div class="form-group form-row">
+                    <label asp-for="Phone" class="control-label"></label>
+                    <input asp-for="Phone" class="form-control" />
+                    <span asp-validation-for="Phone" class="text-danger"></span>
+                </div>
+
+                <div class="form-group form-row">
+                    <label asp-for="Address" class="control-label"></label>
+                    <input asp-for="Address" class="form-control" />
+                    <span asp-validation-for="Address" class="text-danger"></span>
+                </div>
+
+                <div class="form-group form-row">
+                    <label asp-for="CreatedAt" class="control-label"></label>
+                    <input asp-for="CreatedAt" class="form-control" />
+                    <span asp-validation-for="CreatedAt" class="text-danger"></span>
+                </div>
+
+                <div class="form-group form-row">
+                    <label asp-for="UpdatedAt" class="control-label"></label>
+                    <input asp-for="UpdatedAt" class="form-control" />
+                    <span asp-validation-for="UpdatedAt" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <input type="submit" value="Lưu" class="btn btn-success"  />
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="back-link">
+        <a asp-action="Index" >Quay lại</a>
+    </div>
+</div>

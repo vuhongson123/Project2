@@ -1,0 +1,156 @@
+﻿@model KFCManagement.Models.Menu
+
+@{
+    ViewData["Title"] = "Gọi Món";
+    Layout = "~/Areas/AdminManagement/Views/Shared/Admin.cshtml";
+}
+
+<style>
+    /* General Styles */
+    body {
+        font-family: 'Arial', sans-serif;
+        color: #202124;
+        background-color: #f4f4f4;
+    }
+
+    h1 {
+        color: #e2002b;
+        font-size: 2rem;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .row {
+        justify-content: center; /* Center the form */
+    }
+
+    .col-md-4 {
+        background-color: #ffffff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .form-group {
+        margin-bottom: 15px;
+    }
+
+    .control-label {
+        font-weight: 600;
+        color: #555;
+    }
+
+    .form-control {
+        border-radius: 5px;
+        border: 1px solid #ddd;
+        padding: 10px;
+    }
+
+        .form-control:focus {
+            border-color: #e2002b;
+            outline: none;
+            box-shadow: 0 0 5px rgba(226, 0, 43, 0.2);
+        }
+
+    .text-danger {
+        color: #e2002b;
+        font-size: 0.9rem;
+    }
+
+    .btn-primary {
+        background-color: #e2002b;
+        border-color: #e2002b;
+        color: #ffffff;
+        padding: 10px 20px;
+        border-radius: 5px;
+    }
+
+        .btn-primary:hover {
+            background-color: #c50024;
+            border-color: #c50024;
+        }
+
+    .btn-secondary {
+        background-color: #202124;
+        border-color: #202124;
+        color: #ffffff;
+        padding: 10px 20px;
+        border-radius: 5px;
+    }
+
+        .btn-secondary:hover {
+            background-color: #555;
+            border-color: #555;
+        }
+
+    /* Icons */
+    .form-group i {
+        margin-right: 5px;
+    }
+
+    .btn i {
+        margin-right: 5px;
+    }
+</style>
+
+<h1><i class="fas fa-utensils"></i> GỌI MÓN</h1>
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Name" class="control-label"><i class="fas fa-table"></i> Tên Bàn</label>
+                <select asp-for="Name" class="form-control">
+                    <option value="">-- Chọn Bàn --</option>
+                    @foreach (var item in ViewBag.Tables as List<KFCManagement.Models.Table>)
+                    {
+                        <option value="@item.TableNumber">@item.TableNumber</option>
+                    }
+                </select>
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Description" class="control-label"><i class="fas fa-utensils"></i> Món Ăn</label>
+                <select asp-for="Description" class="form-control" id="MenuSelect" onchange="updatePrice()">
+                    <option value="">-- Chọn Món Ăn --</option>
+                    @foreach (var item in ViewBag.MenuItems as List<KFCManagement.Models.MenuItem>)
+                    {
+                        <option value="@item.Name" data-price="@item.Price">@item.Name</option>
+                    }
+                </select>
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Price" class="control-label"><i class="fas fa-dollar-sign"></i> Giá Tiền</label>
+                <input asp-for="Price" class="form-control" id="PriceInput" readonly />
+                <span asp-validation-for="Price" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <button type="submit" class="btn btn-primary"><i class="fas fa-plus"></i> Thêm</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index" class="btn btn-secondary"><i class="fas fa-arrow-left"></i> Quay lại</a>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
+<script>
+    function updatePrice() {
+        var menuSelect = document.getElementById("MenuSelect");
+        var selectedOption = menuSelect.options[menuSelect.selectedIndex];
+        var price = selectedOption.getAttribute("data-price");
+        document.getElementById("PriceInput").value = price || "";
+    }
+</script>

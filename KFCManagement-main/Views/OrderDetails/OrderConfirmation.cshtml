@@ -1,0 +1,9 @@
+﻿@model KFCManagement.Models.Order
+
+<h2>Đơn hàng của bạn đã được hoàn thành!</h2>
+
+<p>Mã đơn hàng: <strong>@Model.OrderId</strong></p>
+<p>Trạng thái: <strong>@Model.Status</strong></p>
+<p>Tổng giá trị đơn hàng: <strong>@Model.TotalPrice</strong></p>
+
+<a href="/Home" class="btn btn-primary">Trở về trang chủ</a>

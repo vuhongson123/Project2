@@ -1,0 +1,144 @@
+﻿@model KFCManagement.Models.Customer
+
+@{
+    ViewData["Title"] = "Tạo Mới";
+    Layout = "~/Areas/AdminManagement/Views/Shared/Admin.cshtml";
+}
+
+<style>
+  
+
+    h1 {
+        color: #e2002b;
+        font-size: 2rem;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    h4 {
+        color: #202124;
+        margin-bottom: 15px;
+    }
+
+    .row {
+        justify-content: center; /* Center the form */
+    }
+
+    .col-md-4 {
+        background-color: #ffffff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .form-group {
+        margin-bottom: 15px;
+    }
+
+    .control-label {
+        font-weight: 600;
+        color: #555;
+    }
+
+    .form-control {
+        border-radius: 5px;
+        border: 1px solid #ddd;
+        padding: 10px;
+    }
+
+        .form-control:focus {
+            border-color: #e2002b;
+            outline: none;
+            box-shadow: 0 0 5px rgba(226, 0, 43, 0.2);
+        }
+
+    .text-danger {
+        color: #e2002b;
+        font-size: 0.9rem;
+    }
+
+    .btn-primary {
+        background-color: #e2002b;
+        border-color: #e2002b;
+        color: #ffffff;
+        padding: 10px 20px;
+        border-radius: 5px;
+    }
+
+        .btn-primary:hover {
+            background-color: #c50024;
+            border-color: #c50024;
+        }
+
+    .btn-info {
+        background-color: #17a2b8; /* Blue */
+        border-color: #17a2b8;
+        color: #ffffff;
+        padding: 10px 20px;
+        border-radius: 5px;
+    }
+
+        .btn-info:hover {
+            background-color: #138496; /* Darker blue */
+            border-color: #138496;
+        }
+
+    /* Icons */
+    .form-group i {
+        margin-right: 5px;
+    }
+
+    .btn i {
+        margin-right: 5px;
+    }
+</style>
+
+<h1>Tạo Mới Khách Hàng</h1>
+
+<h4>Thông Tin Khách Hàng</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Name" class="control-label"><i class="fas fa-user"></i> Tên Khách Hàng</label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Email" class="control-label"><i class="fas fa-envelope"></i> Email</label>
+                <input asp-for="Email" class="form-control" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Password" class="control-label"><i class="fas fa-key"></i> Mật Khẩu</label>
+                <input asp-for="Password" class="form-control" />
+                <span asp-validation-for="Password" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Phone" class="control-label"><i class="fas fa-phone"></i> Số Điện Thoại</label>
+                <input asp-for="Phone" class="form-control" />
+                <span asp-validation-for="Phone" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Address" class="control-label"><i class="fas fa-map-marker-alt"></i> Địa Chỉ</label>
+                <input asp-for="Address" class="form-control" />
+                <span asp-validation-for="Address" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <button type="submit" class="btn btn-primary"><i class="fas fa-plus"></i> Tạo Mới</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index" class="btn btn-info"><i class="fas fa-arrow-left"></i> Quay Lại Danh Sách</a>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

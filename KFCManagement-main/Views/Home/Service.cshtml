@@ -1,0 +1,527 @@
+﻿<style>
+    /* Màu sắc KFC */
+    :root {
+        --kfc-red: #E4002B;
+        --kfc-white: #FFFFFF;
+        --kfc-black: #000000;
+    }
+
+    body {
+        font-family: Arial, sans-serif;
+        background-color: var(--kfc-white);
+        color: var(--kfc-black);
+    }
+
+    .book_party {
+        padding: 20px;
+    }
+
+    .main_h1_tt {
+        color: var(--kfc-red);
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .nav-tabs {
+        border-bottom: none;
+    }
+
+        .nav-tabs .nav-link {
+            border: 1px solid #ddd;
+            border-radius: 25px;
+            margin-right: 10px;
+            color: var(--kfc-black);
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+
+            .nav-tabs .nav-link.active {
+                background-color: var(--kfc-red);
+                color: var(--kfc-white);
+                border-color: var(--kfc-red);
+            }
+
+    .book_tabs {
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .tabs_tt {
+        color: var(--kfc-red);
+        font-size: 1.8rem;
+        margin-bottom: 10px;
+    }
+
+    .tabs_des {
+        margin-bottom: 20px;
+    }
+
+    .book_slider {
+        display: flex;
+        overflow-x: auto;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+        .book_slider .item {
+            flex: 0 0 auto;
+            margin-right: 10px;
+        }
+
+        .book_slider img {
+            max-width: 300px;
+            height: auto;
+        }
+
+    .btn_red {
+        background-color: var(--kfc-red);
+        color: var(--kfc-white);
+        border: none;
+        padding: 12px 25px;
+        border-radius: 25px;
+        cursor: pointer;
+    }
+
+        .btn_red:hover {
+            background-color: #C20023;
+        }
+
+    .book_content {
+        margin-top: 30px;
+    }
+
+    .main_tittle {
+        color: var(--kfc-red);
+        font-size: 2rem;
+        margin-bottom: 20px;
+    }
+
+    .accordion .card {
+        border: 1px solid #ddd;
+        margin-bottom: 10px;
+    }
+
+    .accordion .card-header {
+        background-color: #f8f9fa;
+    }
+
+    .accordion .name_product {
+        width: 100%;
+        text-align: left;
+        padding: 15px;
+        color: var(--kfc-black);
+        cursor: pointer;
+    }
+
+        .accordion .name_product:hover {
+            background-color: #e9ecef;
+        }
+
+    .combo_book_body {
+        padding: 20px;
+    }
+
+        .combo_book_body .item {
+            margin-bottom: 20px;
+        }
+
+        .combo_book_body img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+    .book_combo_info {
+        margin-top: 10px;
+    }
+
+        .book_combo_info h2 {
+            font-size: 1.3rem;
+            margin-bottom: 5px;
+        }
+
+    .book_combo_price {
+        color: var(--kfc-red);
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+
+    .form_book_body {
+        padding: 20px;
+    }
+
+    .book_banner img {
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+    }
+
+    .form_book_item {
+        margin-bottom: 20px;
+    }
+
+    .form_group {
+        margin-bottom: 15px;
+    }
+
+    .datebox, .dateboxs {
+        width: 30%;
+        margin-right: 5px;
+    }
+</style>
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đặt Tiệc KFC</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="book_party nav_tabs_web">
+        <h1 class="main_h1_tt" style="margin-top: 1rem;">ĐẶT TIỆC</h1>
+        <div>
+            <div class="tab-content">
+                <div id="party" role="tabpanel" class="tab-pane fade show active">
+                    <div class="book_tabs party_tabs">
+                        <div class="tabs_title_div">
+                            <h3 class="tabs_tt">BUỔI TIỆC KHÓ QUÊN CÙNG NHỮNG MÓN NGON TỪ KFC</h3>
+                            <div class="tabs_des">Chúng tôi sẵn sàng phục vụ mọi buổi tiệc của bạn.</div>
+                        </div>
+                        <div class="book_slider party_slider style_dots clearfix" style="justify-content: center;">
+                            <div class="item"><img src="https://kfcvn-static.cognizantorderserv.com/images/email/party1vn.png" alt="Tiệc 1"></div>
+                            <div class="item"><img src="https://kfcvn-static.cognizantorderserv.com/images/email/party2vn.png" alt="Tiệc 2"></div>
+                            <div class="item"><img src="https://kfcvn-static.cognizantorderserv.com/images/email/party3vn.png" alt="Tiệc 3"></div>
+                            <div class="item"><img src="https://kfcvn-static.cognizantorderserv.com/images/email/party4vn.png" alt="Tiệc 4"></div>
+                            <div class="item"><img src="https://kfcvn-static.cognizantorderserv.com/images/email/party5vn.png" alt="Tiệc 5"></div>
+                        </div>
+                        <a asp-controller="Tables" asp-action="Index" class="btn_web btn_red btn_web_center"><span> ĐẶT BÀN! </span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="book_content">
+                <h2 class="main_tittle"></h2>
+                <div class="accordion book_accordion">
+                    <div class="card">
+                        <div class="card-header">
+                            <a class="btn btn-link name_product">
+                                <span style="margin-left: 12px;" class="cart_tt_click">THỰC ĐƠN</span>
+                            </a>
+                        </div>
+                        <div class="collapse show">
+                            <div class="card-body combo_book_body">
+                                <div class="row">
+                                    <div class="col-6 col-md-6 col-lg-4">
+                                        <div class="item">
+                                            <a href="javascript:void(0);" class="img_link"><img src="https://static.kfcvietnam.com.vn/images/email/combo-a.jpg" alt="COMBO A"></a>
+                                            <div class="book_combo_info">
+                                                <h2><a href="javascript:void(0);">COMBO A</a></h2>
+                                                <div class="book_combo_price"><span>75.000đ</span></div>
+                                                <div class="book_combo_des">
+                                                    <ul style="margin-top: 0px; margin-bottom: 10px; padding: 0;">
+                                                        <li>2 Gà Rán Tenders</li>
+                                                        <li>1 Mì Ý Gà Viên</li>
+                                                        <li>1 Khoai Tây Chiên (Vừa)</li>
+                                                        <li>1 Pepsi (Vừa)</li>
+                                                    </ul>
+                                                </div>
+                                                <a class="btn-expand-collapse"></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 col-md-6 col-lg-4">
+                                        <div class="item">
+                                            <a href="javascript:void(0);" class="img_link"><img src="https://static.kfcvietnam.com.vn/images/email/combo-b.jpg" alt="COMBO B"></a>
+                                            <div class="book_combo_info">
+                                                <h2><a href="javascript:void(0);">COMBO B</a></h2>
+                                                <div class="book_combo_price"><span>95.000đ</span></div>
+                                                <div class="book_combo_des">
+                                                    <ul style="margin-top: 0px; margin-bottom: 10px; padding: 0;">
+                                                        <li>1 Miếng Gà</li>
+                                                        <li>1 Gà Viên (Vừa)</li>
+                                                        <li>1 Khoai Tây Chiên (Vừa)</li>
+                                                        <li>1 Sô-Cô-La Sữa Đá</li>
+                                                    </ul>
+                                                </div>
+                                                <a class="btn-expand-collapse"></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 col-md-6 col-lg-4">
+                                        <div class="item">
+                                            <a href="javascript:void(0);" class="img_link"><img src="https://static.kfcvietnam.com.vn/images/email/combo-c.jpg" alt="COMBO C"></a>
+                                            <div class="book_combo_info">
+                                                <h2><a href="javascript:void(0);">COMBO C</a></h2>
+                                                <div class="book_combo_price"><span>115.000đ</span></div>
+                                                <div class="book_combo_des">
+                                                    <ul style="margin-top: 0px; margin-bottom: 10px; padding: 0;">
+                                                        <li>1 Burger Tôm</li>
+                                                        <li>1 Miếng Gà</li>
+                                                        <li>1 Khoai Tây Múi Cau (Vừa)</li>
+                                                        <li>1 Sô-Cô-La Sữa Đá</li>
+                                                        <li>1 Kem Vani</li>
+                                                    </ul>
+                                                </div>
+                                                <a class="btn-expand-collapse"></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 col-md-6 col-lg-4">
+                                        <div class="item">
+                                            <a href="javascript:void(0);" class="img_link"><img src="https://static.kfcvietnam.com.vn/images/email/don-gian.jpg" alt="SET UP TIỆC ĐƠN GIẢN"></a>
+                                            <div class="book_combo_info">
+                                                <h2><a href="javascript:void(0);">SET UP TIỆC ĐƠN GIẢN</a></h2>
+                                                <div class="book_combo_price"><span>275.000đ</span></div>
+                                                <div class="book_combo_des">
+                                                    <ul style="margin-top: 0px; margin-bottom: 10px; padding: 0;">
+                                                        <li>Nón Chủ Tiệc</li>
+                                                        <li>Gói Trang Trí Tiệc</li>
+                                                        <li>10 Thiệp Mời</li>
+                                                        <li>10 Nón Khách Tham Dự</li>
+                                                    </ul>
+                                                </div>
+                                                <a class="btn-expand-collapse"></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 col-md-6 col-lg-4">
+                                        <div class="item">
+                                            <a href="javascript:void(0);" class="img_link"><img src="https://static.kfcvietnam.com.vn/images/email/vui-nhon.jpg" alt="SET UP TIỆC VUI NHỘN"></a>
+                                            <div class="book_combo_info">
+                                                <h2><a href="javascript:void(0);">SET UP TIỆC VUI NHỘN</a>
+</h2>
+                                                <div class="book_combo_price"><span>369.000đ</span></div>
+                                                <div class="book_combo_des">
+                                                    <ul style="margin-top: 0px; margin-bottom: 10px; padding: 0;">
+                                                        <li>10 Quà Tặng Tham Gia Trò Chơi</li>
+                                                        <li>1 Mc Hoạt Náo Và Tổ Chức Trò Chơi</li>
+                                                        <li>Nón Chủ Tiệc</li>
+                                                        <li>Gói Trang Trí Tiệc</li>
+                                                        <li>10 Thiệp Mời</li>
+                                                        <li>10 Nón Khách Tham Dự</li>
+                                                    </ul>
+                                                </div>
+                                                <a class="btn-expand-collapse"></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 col-md-6 col-lg-4">
+                                        <div class="item">
+                                            <a href="javascript:void(0);" class="img_link"><img src="https://static.kfcvietnam.com.vn/images/email/tung-bung.jpg" alt="SET UP TIỆC TƯNG BỪNG"></a>
+                                            <div class="book_combo_info">
+                                                <h2><a href="javascript:void(0);">SET UP TIỆC TƯNG BỪNG</a></h2>
+                                                <div class="book_combo_price"><span>459.000đ</span></div>
+                                                <div class="book_combo_des">
+                                                    <ul style="margin-top: 0px; margin-bottom: 10px; padding: 0;">
+                                                        <li>10 Quà Tặng Tham Gia Trò Chơi</li>
+                                                        <li>1 Mc Hoạt Náo Và Tổ Chức Trò Chơi</li>
+                                                        <li>Nhảy Gà</li>
+                                                        <li>Nón Chủ Tiệc</li>
+                                                        <li>Gói Trang Trí Tiệc</li>
+                                                        <li>10 Thiệp Mời</li>
+                                                        <li>10 Nón Khách Tham Dự</li>
+                                                    </ul>
+                                                </div>
+                                                <a class="btn-expand-collapse"></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">
+                            <a class="btn btn-link name_product">
+                                <span style="margin-left: 12px;" class="cart_tt_click">ĐẶT TIỆC</span>
+                            </a>
+                        </div>
+                        <div class="collapse show" id="booking_form">
+                            <div class="card-body form_book_body">
+                                <div class="book_banner"><img src="https://kfcvn-static.cognizantorderserv.com/images/email/birthdaybanner.jpg" class="pc" alt="Banner đặt tiệc"></div>
+                                <form class="form-signin pt-4 book_maincontent_form">
+                                    <div class="row">
+                                        <div class="col-12 col-md-12 col-lg-6 col_left">
+                                            <div class="form_book_item">
+                                                <h3 class="main_tittle">THÔNG TIN LIÊN HỆ</h3>
+                                                <div class="form-group">
+                                                    <label for="name">Họ và tên bé</label>
+                                                    <input type="text" id="name" maxlength="50" class="form-control">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="name_parent">Họ và tên người đặt *</label>
+                                                    <input type="text" id="name_parent" required maxlength="50" class="form-control">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="phone">Số điện thoại *</label>
+                                                    <input type="text" id="phone" required maxlength="11" class="form-control">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="emails">Email *</label>
+                                                    <input type="email" id="emails" required class="form-control">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-md-12 col-lg-6 col_right">
+                                            <div class="form_book_item">
+                                                <h3 class="main_tittle">THÔNG TIN BUỔI TIỆC</h3>
+                                                <div class="form-group">
+                                                    <div style="font-weight: bolder; margin-bottom: 10px;">
+                                                        <label>Loại tiệc *</label>
+                                                    </div>
+                                                    <div>
+                                                        <label><input type="radio" name="partytype" value="Tiệc sinh nhật" checked> Tiệc sinh nhật</label>
+                                                        <label><input type="radio" name="partytype" value="Tiệc liên hoan"> Tiệc liên hoan</label>
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <p class="book_form_tt" style="margin-bottom: 1px;"><strong> Thời gian tổ chức <i class="text-danger">*</i></strong></p>
+                                                    <div class="row" style="margin-left: 1px;">
+                                                        <div class="col -md-2 datebox">
+                                                            <select id="selectedDate" required class="form-control">
+                                                                <option value="">Ngày </option>
+                                                                <option value="1"> 1 </option>
+                                                                <option value="2"> 2 </option>
+                                                                <option value="3"> 3 </option>
+                                                                <option value="4"> 4 </option>
+                                                                <option value="5"> 5 </option>
+                                                                <option value="6"> 6 </option>
+                                                                <option value="7"> 7 </option>
+                                                                <option value="8"> 8 </option>
+                                                                <option value="9"> 9 </option>
+                                                                <option value="10"> 10 </option>
+                                                                <option value="11"> 11 </option>
+                                                                <option value="12"> 12 </option>
+                                                                <option value="13"> 13 </option>
+                                                                <option value="14"> 14 </option>
+                                                                <option value="15"> 15 </option>
+                                                                <option value="16"> 16 </option>
+                                                                <option value="17"> 17 </option>
+                                                                <option value="18"> 18 </option>
+                                                                <option value="19"> 19 </option>
+                                                                <option value="20"> 20 </option>
+                                                                <option value="21"> 21 </option>
+                                                                <option value="22"> 22 </option>
+                                                                <option value="23"> 23 </option>
+                                                                <option value="24"> 24 </option>
+                                                                <option value="25"> 25 </option>
+                                                                <option value="26"> 26 </option>
+                                                                <option value="27"> 27 </option>
+                                                                <option value="28"> 28 </option>
+                                                                <option value="29"> 29 </option>
+                                                                <option value="30"> 30 </option>
+                                                                <option value="31"> 31 </option>
+                                                            </select>
+                                                        </div>
+                                                        <div class="col -md-2 dateboxs">
+                                                            <select id="selectedMonth" required class="form-control">
+                                                                <option value="">Tháng</option>
+                                                                <option value="1"> 1 </option>
+                                                                <option value="2"> 2 </option>
+                                                                <option value="3"> 3 </option>
+                                                                <option value="4"> 4 </option>
+                                                                <option value="5"> 5 </option>
+                                                                <option value="6"> 6 </option>
+                                                                <option value="7"> 7 </option>
+                                                                <option value="8"> 8 </option>
+                                                                <option value="9"> 9 </option>
+                                                                <option value="10"> 10 </option>
+                                                                <option value="11"> 11 </option>
+                                                                <option value="12"> 12 </option>
+                                                            </select>
+                                                        </div>
+                                                        <div class="col -md-2 dateboxs">
+                                                            <select id="selectedYear" required class="form-control">
+                                                                <option value="">Năm</option>
+                                                                <option value="2025"> 2025 </option>
+                                                                <option value="2026"> 2026 </option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <div class="row" style="margin-left: 1px;">
+                                                        <div class="col -md-2" style="width: 75%; margin-top: 10px;">
+                                                            <p class="book_form_tt" style="margin-bottom: 1em; margin-top: 1em;"><strong> Số lượng người tham dự <i class="text-danger">*</i></strong></p>
+                                                            <select id="quantity" class="form-control">
+                                                                <option value="">Số lượng</option>
+                                                                <option value="0-20">0-20</option>
+                                                                <option value="21-50">21-50</option>
+                                                                <option value="51+">51+</option>
+                                                                <option value="Chưa quyết định">Chưa quyết định</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div>
+                                                    <p class="book_form_tt" style="margin-bottom: .1em; margin-top: 1em;"><strong>Địa điểm tổ chức</strong></p>
+                                                    <div class="form-group">
+                                                        <div class="row" style="margin-left: 1px;">
+                                                            <div class="col" style="width: 75%; margin-top: 10px;">
+                                                                <select id="citys" class="form-control">
+                                                                    <option value="">Tỉnh/Thành phố *</option>
+                                                                    <option value="An Giang">An Giang</option>
+                                                                    <option value="Bà Rịa Vũng Tàu">Bà Rịa Vũng Tàu</option>
+                                                                    <option value="Bình Dương">Bình Dương</option>
+                                                                    <option value="Bình Thuận">Bình Thuận</option>
+                                                                    <option value="Bình Định">Bình Định</option>
+                                                                    <option value="Bắc Giang">Bắc Giang</option>
+                                                                    <option value="Bắc Ninh">Bắc Ninh</option>
+                                                                    <option value="Bến Tre">Bến Tre</option>
+                                                                    <option value="Cà Mau">Cà Mau</option>
+                                                                    <option value="Cần Thơ">Cần Thơ</option>
+                                                                    <option value="Gia Lai">Gia Lai</option>
+                                                                    <option value="Hà Nội">Hà Nội</option>
+                                                                    <option value="Hưng Yên">Hưng Yên</option>
+                                                                    <option value="Hải Dương">Hải Dương</option>
+                                                                    <option value="Hải Phòng">Hải Phòng</option>
+                                                                    <option value="Hồ Chí Minh">Hồ Chí Minh</option>
+                                                                    <option value="Khánh Hòa">Khánh Hòa</option>
+                                                                    <option value="Kiên Giang">Kiên Giang</option>
+                                                                    <option value="Long An">Long An</option>
+                                                                    <option value="Lâm Đồng">Lâm Đồng</option>
+                                                                    <option value="Nam Định">Nam Định</option>
+                                                                    <option value="Nghệ An">Nghệ An</option>
+                                                                    <option value="Ninh Bình">Ninh Bình</option>
+                                                                    <option value="Phú Yên">Phú Yên</option>
+                                                                    <option value="Quảng Nam">Quảng Nam</option>
+                                                                    <option value="Quảng Ngãi">Quảng Ngãi</option>
+                                                                    <option value="Sóc Trăng">Sóc Trăng</option>
+                                                                    <option value="Tây Ninh">Tây Ninh</option>
+                                                                    <option value="Thái Bình">Thái Bình</option>
+                                                                    <option value="Thái Nguyên">Thái Nguyên</option>
+                                                                    <option value="Thanh Hóa">Thanh Hóa</option>
+                                                                    <option value="Tiền Giang">Tiền Giang</option>
+                                                                    <option value="Trà Vinh">Trà Vinh</option>
+                                                                    <option value="Vĩnh Long">Vĩnh Long</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <div class="form-group">
+                                                <p class="book_form_tt" style="margin-bottom: .1em; margin-top: 1em;"><strong>Ghi chú</strong></p>
+                                                <textarea rows="4" class="form-control"></textarea>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-12 text-center">
+                                            <button type="submit" class="btn_red">GỬI THÔNG TIN</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,144 @@
+﻿@model IEnumerable<KFCManagement.Models.Admin>
+
+@{
+    ViewData["Title"] = "Danh Sách Quản Trị Viên";
+    Layout = "~/Areas/AdminManagement/Views/Shared/Admin.cshtml";
+}
+
+<style>
+
+    h1 {
+        color: #e2002b; /* Red title */
+        font-size: 2rem;
+        margin-bottom: 20px;
+    }
+
+    .btn-success {
+        background-color: #e2002b; /* Red button */
+        border-color: #e2002b;
+        color: #ffffff;
+    }
+
+        .btn-success:hover {
+            background-color: #c50024; /* Darker red on hover */
+            border-color: #c50024;
+        }
+
+    /* Table Styles */
+    .table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    }
+
+        .table th, .table td {
+            padding: 12px 15px;
+            text-align: left;
+            border-bottom: 1px solid #ddd; /* Light gray border */
+            background-color: #ffffff; /* White cell background */
+        }
+
+        .table th {
+            background-color: #f8f9fa; /* Slightly darker header background */
+            color: #202124; /* Dark gray header text */
+            font-weight: 600;
+        }
+
+        .table tr:hover {
+            background-color: #f5f5f5; /* Light gray hover effect */
+        }
+
+    /* Action Buttons */
+    .btn-warning, .btn-info, .btn-danger {
+        margin: 0 5px; /* Space between buttons */
+        padding: 8px 15px; /* Adjust padding */
+        font-size: 0.9rem;
+    }
+
+    .btn-warning {
+        background-color: #ffc107; /* Yellow */
+        border-color: #ffc107;
+        color: #202124;
+    }
+
+    .btn-info {
+        background-color: #17a2b8; /* Blue */
+        border-color: #17a2b8;
+        color: #ffffff;
+    }
+
+    .btn-danger {
+        background-color: #dc3545; /* Red */
+        border-color: #dc3545;
+        color: #ffffff;
+    }
+
+    /* Icons */
+    .table i {
+        margin-right: 5px;
+    }
+
+</style>
+
+<h1>Danh Sách Quản Trị Viên</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-success"><i class="fas fa-plus"></i> Tạo Mới</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                <i class="fas fa-user"></i> @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th>
+                <i class="fas fa-envelope"></i> @Html.DisplayNameFor(model => model.Email)
+            </th>
+            <th>
+                <i class="fas fa-key"></i> @Html.DisplayNameFor(model => model.Password)
+            </th>
+            <th>
+                <i class="fas fa-phone"></i> @Html.DisplayNameFor(model => model.Phone)
+            </th>
+            <th>
+                <i class="fas fa-calendar-alt"></i> @Html.DisplayNameFor(model => model.CreatedAt)
+            </th>
+            <th>
+                <i class="fas fa-calendar-alt"></i> @Html.DisplayNameFor(model => model.UpdatedAt)
+            </th>
+            <th>Hành Động</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Email)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Password)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Phone)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CreatedAt)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.UpdatedAt)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.AdminId" class="btn btn-warning"><i class="fas fa-edit"></i> Sửa</a>
+                    <a asp-action="Details" asp-route-id="@item.AdminId" class="btn btn-info"><i class="fas fa-info-circle"></i> Chi Tiết</a>
+                    <a asp-action="Delete" asp-route-id="@item.AdminId" class="btn btn-danger"><i class="fas fa-trash-alt"></i> Xóa</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

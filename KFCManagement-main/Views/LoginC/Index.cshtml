@@ -1,0 +1,86 @@
+﻿@model KFCManagement.Models.LoginC
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+    .login-box {
+        width: 350px;
+        margin: 100px auto;
+        padding: 30px;
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .login-title {
+        text-align: center;
+        margin-bottom: 20px;
+        font-size: 1.8rem;
+        color: #e2002b; /* Red KFC color */
+        font-weight: bold;
+    }
+
+    .custom-input {
+        margin-bottom: 15px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        padding: 12px;
+        font-size: 16px;
+    }
+
+    .btn-primary {
+        background-color: #e2002b; /* Red KFC color */
+        color: #fff;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        width: 100%;
+    }
+
+        .btn-primary:hover {
+            background-color: #c50024;
+        }
+
+    .alert-danger {
+        background-color: #ffe6e6; /* Light red background for error messages */
+        border: 1px solid #e2002b;
+        color: #e2002b;
+        padding: 10px;
+        border-radius: 5px;
+        margin-top: 20px;
+    }
+
+        .alert-danger ul {
+            margin-bottom: 0;
+            padding-left: 20px;
+        }
+</style>
+
+@if (!ViewData.ModelState.IsValid)
+{
+    <div class="alert alert-danger mt-3">
+        <ul>
+            @foreach (var modelState in ViewData.ModelState.Values)
+            {
+                foreach (var error in modelState.Errors)
+                {
+                    <li>@error.ErrorMessage</li>
+                }
+            }
+        </ul>
+    </div>
+}
+
+<div class="login-box">
+    <div class="login-title">Khách hàng đăng nhập</div>
+    <form asp-action="Index" method="post">
+        <input asp-for="Email" type="email" class="custom-input form-control form-control-lg" placeholder="Email" />
+        <input asp-for="Password" type="password" class="custom-input form-control form-control-lg" placeholder="Mật khẩu" required />
+        <button type="submit" class="btn btn-primary">Đăng nhập</button>
+    </form>
+</div>

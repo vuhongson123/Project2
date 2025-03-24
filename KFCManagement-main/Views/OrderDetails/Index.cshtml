@@ -1,0 +1,68 @@
+﻿@model List<KFCManagement.Models.OrderDetail>
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2 class="text-center my-4"><i class="fas fa-shopping-cart"></i> Giỏ Hàng</h2>
+
+<div class="container">
+    <div class="row">
+        @foreach (var item in Model)
+        {
+            <div class="col-md-3 mb-4">
+                <div class="card">
+                    <img src="/images/menuitems/6-Fried-Chicken-new.jpg" class="card-img-top" alt="Product Image" height="200px"> <!-- Placeholder image, replace with actual product image -->
+                    <div class="card-body">
+                        <h5 class="card-title">@item.Item.Name</h5> <!-- Product Name -->
+                        <p class="card-text"><strong>Số lượng:</strong> @item.Quantity</p> <!-- Quantity -->
+                        <p class="card-text"><strong>Giá:</strong> @item.Price.ToString("N0") VND</p> <!-- Price -->
+                        <p class="card-text"><strong>Tổng tiền:</strong> @((item.Quantity * item.Price).ToString("N0")) VND</p> <!-- Total -->
+
+                        <button class="btn btn-danger btn-sm delete-button" data-id="@item.OrderDetailId">
+                            <i class="fas fa-trash"></i> Xóa
+                        </button>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+
+    <div class="d-flex justify-content-between align-items-center my-4">
+        <h4><i class="fas fa-calculator"></i> Tổng tiền: @Model.Sum(item => item.Quantity * item.Price).ToString("N0") VND</h4>
+        <a asp-action="Checkout" class="btn btn-success btn-lg">
+            <i class="fas fa-credit-card"></i> Thanh toán
+        </a>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        // AJAX delete functionality
+        $(document).on('click', '.delete-button', function (e) {
+            e.preventDefault();
+
+            var orderDetailId = $(this).data('id');
+            var card = $(this).closest('.card'); // Get the card for the item to be deleted
+
+            // Confirm the deletion
+            if (confirm('Bạn có chắc chắn muốn xóa sản phẩm này khỏi giỏ hàng?')) {
+                $.ajax({
+                    url: '@Url.Action("Delete", "OrderDetails")',
+                    type: 'POST',
+                    data: { orderDetailId: orderDetailId },
+                    success: function (response) {
+                        if (response.success) {
+                            card.remove(); // Remove the card from the layout
+                            alert('Sản phẩm đã được xóa khỏi giỏ hàng');
+                        } else {
+                            alert(response.message || 'Đã xảy ra lỗi khi xóa sản phẩm.');
+                        }
+                    },
+                    error: function () {
+                        alert('Đã xảy ra lỗi, vui lòng thử lại.');
+                    }
+                });
+            }
+        });
+    </script>
+}
